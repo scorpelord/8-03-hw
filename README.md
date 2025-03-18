@@ -53,7 +53,8 @@ https://192.168.123.3/zabbix
 ```
 
 `При необходимости прикрепитe сюда скриншоты
-![Uploading 4.jpg…]()
+![Adminka](https://github.com/user-attachments/assets/e2e41a34-3b61-47cc-b74c-d2743f9f98fc)
+
 `
 
 
