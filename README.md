@@ -44,7 +44,8 @@ su - postgres -c 'psql --command "CREATE DATABASE zabbix OWNER zabbix;"'
 
 nano file /etc/zabbix/zabbix_server.conf
 
-systemctl restart zabbix-server apache2
+systemctl restart zabbix-server apache2![4](https://github.com/user-attachments/assets/a7c107b0-64c1-4a10-84b0-2323f7b4cc40)
+
 systemctl enable zabbix-server apache2
 
 https://192.168.123.3/zabbix
@@ -52,7 +53,8 @@ https://192.168.123.3/zabbix
 ```
 
 `При необходимости прикрепитe сюда скриншоты
-![alt text](https://github.com/scorpelord/8-03-hw/tree/main/img/4.jpg)`
+![Uploading 4.jpg…]()
+`
 
 
 ---
