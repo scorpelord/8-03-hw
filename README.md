@@ -23,22 +23,32 @@
 ---
 
 ### Задание 1
-
-`Приведите ответ в свободной форме........`
-
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
-
+Используемые команды указаны ниже
 ```
 Поле для вставки кода...
-....
-....
-....
-....
+
+apt-get install postgresql
+
+wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_latest_6.0+debian12_all.deb
+
+dpkg -i zabbix-release_latest_6.0+debian12_all.deb
+
+apt update
+
+apt install zabbix-server-pgsql zabbix-frontend-php php8.2-pgsql zabbix-apache-conf zabbix-sql-scripts
+
+su - postgres -c 'psql --command "CREATE USER zabbix WITH PASSWORD
+'\'123456789\'';"'
+
+su - postgres -c 'psql --command "CREATE DATABASE zabbix OWNER zabbix;"'
+
+nano file /etc/zabbix/zabbix_server.conf
+
+systemctl restart zabbix-server apache2
+systemctl enable zabbix-server apache2
+
+https://192.168.123.3/zabbix
+
 ```
 
 `При необходимости прикрепитe сюда скриншоты
