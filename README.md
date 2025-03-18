@@ -78,7 +78,7 @@ https://192.168.123.3/zabbix
 
 `При необходимости прикрепитe сюда скриншоты
 ![Hosts](https://github.com/user-attachments/assets/ab621407-bc91-4ff2-9fc5-941c542cf4c6)
-`
+
 
 
 ---
