@@ -69,7 +69,7 @@ cat /vat/log/zabbix/zabbix_agentd.log
 
 `При необходимости прикрепитe сюда скриншоты
 ![Hosts](https://github.com/user-attachments/assets/7116cc8c-79e8-408d-bf5d-dddafeafce60)
-![Logi](https://github.com/user-attachments/assets/0844bbe5-86d4-4115-b48e-e13312310486)
+![Logi](https://github.com/user-attachments/assets/7896e0fa-7f3a-49e8-9215-f1056f7f622d)
 ![Latest Data](https://github.com/user-attachments/assets/859e658d-8c3b-4c60-92ee-89d000146229)
 ![Problema Network](https://github.com/user-attachments/assets/89ec519f-0d32-44ce-a2f9-a5e0db54566a)
 
