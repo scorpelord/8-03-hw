@@ -14,7 +14,7 @@
 
 ```
 
-`При необходимости прикрепитe сюда скриншоты
+
 ![first](https://github.com/user-attachments/assets/b6c44a52-823a-45c2-9e39-411cf1af073f)
 
 
