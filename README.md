@@ -30,10 +30,6 @@
 Файл скрипта и конфига прикрепил выше.
 Скриншот плавающего ip адресса, прикладываю ниже.
 
-![Hosts](https://github.com/user-attachments/assets/d148e046-2b9d-4546-bc51-c613f5da4bba)
-![Logi](https://github.com/user-attachments/assets/2cdb909b-0691-4856-b282-85955bcd7557)
-![Latest Data](https://github.com/user-attachments/assets/e065fbd4-ff36-4b5d-87a9-f5d5a38d458a)
-
 
 
 
