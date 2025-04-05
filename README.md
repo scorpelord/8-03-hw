@@ -3,42 +3,14 @@
 ---
 
 ### Задание 1
-Используемые команды указаны ниже
-```
-Поле для вставки кода...
+Конфиг файл прикреплен выше. Ниже предоставлены скриншоты перенаправления при отключении одного из сервера и при обращении к haproxy.
 
-apt-get install postgresql
-
-wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_latest_6.0+debian12_all.deb
-
-dpkg -i zabbix-release_latest_6.0+debian12_all.deb
-
-apt update
-
-apt install zabbix-server-pgsql zabbix-frontend-php php8.2-pgsql zabbix-apache-conf zabbix-sql-scripts
-
-su - postgres -c 'psql --command "CREATE USER zabbix WITH PASSWORD
-'\'123456789\'';"'
-
-su - postgres -c 'psql --command "CREATE DATABASE zabbix OWNER zabbix;"'
-
-nano file /etc/zabbix/zabbix_server.conf
-
-systemctl restart zabbix-server apache2![4](https://github.com/user-attachments/assets/a7c107b0-64c1-4a10-84b0-2323f7b4cc40)
-
-systemctl enable zabbix-server apache2
-
-https://192.168.123.3/zabbix
-
-```
-
-`При необходимости прикрепитe сюда скриншоты
 ![1](https://github.com/user-attachments/assets/a34b8d42-e786-4148-ae90-0ba76ef79601)
+![2](https://github.com/user-attachments/assets/4a72615f-fec1-4c70-91c5-956cc47131f7)
 
 
 
 
-`
 
 
 ---
