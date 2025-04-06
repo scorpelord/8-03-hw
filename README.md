@@ -28,10 +28,6 @@ chmod +x backup.sh
 crontab -e
 nano or vim = 1
 0 0 * * * /path/to/backup.sh
-   
-   
-   
-
 ```
 ![3](https://github.com/user-attachments/assets/97540aae-1a01-49b1-951a-07b69df6b877)
 
