@@ -1,43 +1,16 @@
-# Домашнее задание к занятию "Система мониторинга Zabbix" - `Молоствов Андрей`
+# Домашнее задание к занятию "ELK" - `Молоствов Андрей`
 
 ---
 
 ### Задание 1
+Установите и запустите Elasticsearch, после чего поменяйте параметр cluster_name на случайный.
+
 Используемые команды указаны ниже
 ```
-Поле для вставки кода...
-
-apt-get install postgresql
-
-wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_latest_6.0+debian12_all.deb
-
-dpkg -i zabbix-release_latest_6.0+debian12_all.deb
-
-apt update
-
-apt install zabbix-server-pgsql zabbix-frontend-php php8.2-pgsql zabbix-apache-conf zabbix-sql-scripts
-
-su - postgres -c 'psql --command "CREATE USER zabbix WITH PASSWORD
-'\'123456789\'';"'
-
-su - postgres -c 'psql --command "CREATE DATABASE zabbix OWNER zabbix;"'
-
-nano file /etc/zabbix/zabbix_server.conf
-
-systemctl restart zabbix-server apache2![4](https://github.com/user-attachments/assets/a7c107b0-64c1-4a10-84b0-2323f7b4cc40)
-
-systemctl enable zabbix-server apache2
-
-https://192.168.123.3/zabbix
+Установить Elasticsearch не получается, зеркало Яндекса также не работает.
 
 ```
 
-`При необходимости прикрепитe сюда скриншоты
-![Adminka](https://github.com/user-attachments/assets/78d6c9af-58a3-4249-be3e-f7f3b2e56302)
-
-
-
-`
 
 
 ---
