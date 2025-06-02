@@ -55,6 +55,36 @@ get key2
 `При необходимости прикрепитe сюда скриншоты
 ![122](https://github.com/user-attachments/assets/bde718ed-c103-4ddf-a3d8-6ae3cf446402)
 
+### Задание 4
+
+Запишите в Redis несколько ключей с любыми именами и значениями.
+
+```
+Поле для вставки кода...
+
+sudo apt update
+sudo apt install redis-server
+sudo systemctl start redis-server
+sudo systemctl enable redis-server
+redis-cli ping
+redis-cli
+SET key1 "value1"
+SET key2 "value2"
+SET key3 "value3"
+KEYS *
+GET key1
+GET key2
+GET key3
+     
+                  
+   
+   
+   
+   
+```
+
+`При необходимости прикрепитe сюда скриншоты
+![121](https://github.com/user-attachments/assets/8171dc6d-052a-405c-b499-5ba8994b0ee0)
 
 
 
