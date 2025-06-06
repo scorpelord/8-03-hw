@@ -10,6 +10,7 @@
 Установить Elasticsearch не получается, зеркало Яндекса также не работает.
 
 ```
+![777](https://github.com/user-attachments/assets/5dcea8c0-9fd1-4d8b-beeb-d82f10c6f89e)
 
 
 
