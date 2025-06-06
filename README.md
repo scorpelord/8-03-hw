@@ -61,33 +61,12 @@ elasticsearch.hosts: ["https://127.0.0.1:9200"]
 
 
 ```
-# apt install nginx
-# apt install logstash
-# nano /etc/logstash/conf.d/nginx.conf
-input {
-       file {
-         path => "/var/log/nginx/access.log"
-         start_position => "beginning"
-       }
-     }
 
-     filter {
-       grok {
-         match => { "message" => "%{COMBINEDAPACHELOG}" }
-       }
-     }
-
-     output {
-       elasticsearch {
-         hosts => ["https://127.0.0.1:9200"]
-         index => "nginx-logs"
-       }
-     }
 
 ```
 
 `При необходимости прикрепитe сюда скриншоты
-![888](https://github.com/user-attachments/assets/bbc90d31-be70-45c9-87ba-158eb6d37253)
+
 
 
 
