@@ -56,25 +56,18 @@ systemctl enable rabbitmq-server
 ```
 Поле для вставки кода...
 
-wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_latest_6.0+debian12_all.deb
+apt-get install python3.10
+apt-get install python3-pip
+python3 -m venv venv
+source venv/bin/activate
+pip install pika
+python producer.py
 
-dpkg -i zabbix-release_latest_6.0+debian12_all.deb
-
-apt update
-
-apt install zabbix-agent
-
-systemctl restart zabbix-agent
-
-systemctl enable zabbix-agent
-
-cat /vat/log/zabbix/zabbix_agentd.log
 ```
 
 `При необходимости прикрепитe сюда скриншоты
 ![rabbitserv2](https://github.com/user-attachments/assets/857a9804-46f3-433f-9f7a-f93203acf94b)
-![Logi](https://github.com/user-attachments/assets/2cdb909b-0691-4856-b282-85955bcd7557)
-![Latest Data](https://github.com/user-attachments/assets/e065fbd4-ff36-4b5d-87a9-f5d5a38d458a)
+![rabbitserv3](https://github.com/user-attachments/assets/d10a9b90-b919-4576-a197-e69c9a3758fa)
 
 
 
