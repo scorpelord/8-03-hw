@@ -1,39 +1,46 @@
-# Домашнее задание к занятию "Система мониторинга Zabbix" - `Молоствов Андрей`
+# Домашнее задание к занятию "Очереди RabbitMQ" - `Молоствов Андрей`
 
 ---
 
 ### Задание 1
+
+Установка RabbitMQ
+
 Используемые команды указаны ниже
 ```
 Поле для вставки кода...
 
-apt-get install postgresql
+apt-get update
 
-wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_latest_6.0+debian12_all.deb
+apt-get install -y curl gnupg
 
-dpkg -i zabbix-release_latest_6.0+debian12_all.deb
+curl -fsSL https://packages.erlang-solutions.com/ubuntu/erlang_solutions.asc | sudo apt-key add -
 
-apt update
+echo "deb https://packages.erlang-solutions.com/ubuntu $(lsb_release -cs) contrib" | sudo tee /etc/apt/sources.list.d/erlang.list
 
-apt install zabbix-server-pgsql zabbix-frontend-php php8.2-pgsql zabbix-apache-conf zabbix-sql-scripts
+apt-get update
 
-su - postgres -c 'psql --command "CREATE USER zabbix WITH PASSWORD
-'\'123456789\'';"'
+apt-get install -y erlang
 
-su - postgres -c 'psql --command "CREATE DATABASE zabbix OWNER zabbix;"'
+curl -fsSL https://packagecloud.io/rabbitmq/rabbitmq-server/gpgkey | sudo apt-key add -
 
-nano file /etc/zabbix/zabbix_server.conf
+echo "deb https://packagecloud.io/rabbitmq/rabbitmq-server/ubuntu/ $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/rabbitmq.list
 
-systemctl restart zabbix-server apache2![4](https://github.com/user-attachments/assets/a7c107b0-64c1-4a10-84b0-2323f7b4cc40)
+apt-get update
 
-systemctl enable zabbix-server apache2
+apt-get install -y rabbitmq-server
 
-https://192.168.123.3/zabbix
+rabbitmq-plugins enable rabbitmq_management
+
+systemctl start rabbitmq-server
+
+systemctl enable rabbitmq-server
 
 ```
 
 `При необходимости прикрепитe сюда скриншоты
-![Adminka](https://github.com/user-attachments/assets/78d6c9af-58a3-4249-be3e-f7f3b2e56302)
+![rabbitserv](https://github.com/user-attachments/assets/25d0d69a-2970-423f-8925-88fffa9a1105)
+
 
 
 
