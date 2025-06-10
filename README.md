@@ -71,6 +71,28 @@ python producer.py
 
 
 
+### Задание 3
+
+Подготовка HA кластера
+
+```
+Поле для вставки кода...
+
+apt-get install python3.10
+apt-get install python3-pip
+python3 -m venv venv
+source venv/bin/activate
+pip install pika
+python producer.py
+
+```
+
+`При необходимости прикрепитe сюда скриншоты
+![rabbitserv4](https://github.com/user-attachments/assets/63c5278b-75d8-4f40-a02b-14fca194f701)
+![rabbitserv5](https://github.com/user-attachments/assets/270f1f9f-68f0-46bc-9f8d-3d8fd084c10b)
+![cluster](https://github.com/user-attachments/assets/c6dc95fb-6368-4ef2-bdf4-d2f05c7777ff)
+![noda1](https://github.com/user-attachments/assets/4dfe4d22-92a4-4e2f-b9c6-4b3f86d2b0f8)
+
 
 
 
