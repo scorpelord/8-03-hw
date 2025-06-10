@@ -73,17 +73,32 @@ python producer.py
 
 ### Задание 3
 
-Подготовка HA кластера
+Подготовка HA кластера.
+Почему-то имена rmq01 и rmq02 не срабатывали, хотя в файле конфигурации я их поменял, оставил по названиям машин, возможно, в этом и было дело...
+
 
 ```
 Поле для вставки кода...
 
-apt-get install python3.10
-apt-get install python3-pip
-python3 -m venv venv
-source venv/bin/activate
-pip install pika
-python producer.py
+nano /etc/hosts
+192.168.0.10 vm1
+192.168.0.11 vm2
+
+vm1:
+rabbitmqctl stop_app
+rabbitmqctl reset
+rabbitmqctl start_app
+
+vm2:
+rabbitmqctl stop_app
+rabbitmqctl reset
+rabbitmqctl join_cluster rabbit@vm1
+rabbitmqctl start_app   
+
+rabbitmqctl cluster_status
+rabbitmqctl set_policy ha-all ""
+'{"ha-mode":"all","ha-sync-mode":"automatic"}'
+rabbitmqadmin get queue='hello'
 
 ```
 
