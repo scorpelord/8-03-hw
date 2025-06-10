@@ -92,6 +92,7 @@ python producer.py
 ![rabbitserv5](https://github.com/user-attachments/assets/270f1f9f-68f0-46bc-9f8d-3d8fd084c10b)
 ![cluster](https://github.com/user-attachments/assets/c6dc95fb-6368-4ef2-bdf4-d2f05c7777ff)
 ![noda1](https://github.com/user-attachments/assets/4dfe4d22-92a4-4e2f-b9c6-4b3f86d2b0f8)
+![node2](https://github.com/user-attachments/assets/a13ef364-d86a-4076-a3c5-1729ddc686ee)
 
 
 
