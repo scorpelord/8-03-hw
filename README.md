@@ -26,6 +26,8 @@ Master-Master
 
 При необходимости прикрепитe сюда скриншоты
 
+![first-info](https://github.com/user-attachments/assets/7e0da174-7b04-41b8-a06c-2bbaded67d49)
+
 
 
 
