@@ -6,7 +6,7 @@
 Используемые команды указаны ниже
 ```
 USE sakila;
-#1
+
 SELECT DISTINCT district
 FROM address
 WHERE district LIKE 'K%a'
