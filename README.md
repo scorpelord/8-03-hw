@@ -5,9 +5,6 @@
 ### Задание 1
 Используемые команды указаны ниже
 ```
-Поле для вставки кода...
-
-MySQL:
 USE sakila;
 #1
 SELECT DISTINCT district
@@ -35,7 +32,6 @@ WHERE district LIKE 'K%a'
 
 
 ```
-Поле для вставки кода...
 SELECT *
 FROM payment
 WHERE payment_date BETWEEN '2005-06-15' AND '2005-06-18'
