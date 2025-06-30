@@ -43,14 +43,48 @@ HAVING
 
 
 ```
-Поле для вставки кода...
-
+SELECT COUNT(*) AS film_count
+FROM film
+WHERE length > (SELECT AVG(length) FROM film);
 
 ```
 
 `При необходимости прикрепитe сюда скриншоты
 
+![second-table](https://github.com/user-attachments/assets/4ba37e08-3dad-4acb-bcfb-6ee0cf6f0787)
 
+
+### Задание 3
+
+
+
+```
+WITH monthly_payments AS (
+    SELECT 
+        DATE_FORMAT(payment_date, '%Y-%m') AS payment_month,
+        SUM(amount) AS total_payment,
+        COUNT(r.rental_id) AS rental_count
+    FROM 
+        payment p
+    JOIN 
+        rental r ON p.rental_id = r.rental_id
+    GROUP BY 
+        payment_month
+)
+SELECT 
+    payment_month,
+    total_payment,
+    rental_count
+FROM 
+    monthly_payments
+ORDER BY 
+    total_payment DESC
+LIMIT 1;
+```
+
+`При необходимости прикрепитe сюда скриншоты
+
+![third-table](https://github.com/user-attachments/assets/00850335-e8ed-4286-8703-f2e976e7acb1)
 
 
 
