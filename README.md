@@ -10,7 +10,7 @@ SELECT
 FROM 
     information_schema.tables
 WHERE 
-    table_schema = 'your_database_name';
+    table_schema = 'database_molostvov';
 
 ```
 
