@@ -28,11 +28,12 @@ HAVING
 ```
 
 `При необходимости прикрепитe сюда скриншоты
+
 ![first-table](https://github.com/user-attachments/assets/cbb7e199-bf07-4d94-8b2a-d68792f29412)
 
 
 
-`
+
 
 
 ---
