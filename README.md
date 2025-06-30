@@ -28,12 +28,16 @@ mysql -u root -p
 MySQL:
 DROP USER 'sys_temp'@'localhost';
 CREATE USER 'sys_temp'@'localhost' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON *.* TO 'sys_temp'@'localhost' WITH GRANT OPTION;
+SHOW GRANTS FOR 'sys_temp'@'localhost';
 
 ```
 
 `При необходимости прикрепитe сюда скриншоты
 
 ![first-table](https://github.com/user-attachments/assets/0a77e5f6-c729-44dd-8a43-f5ad73dee6ec)
+![second-table](https://github.com/user-attachments/assets/13c7e2d3-c7af-4cf6-b78a-4f0c7dde81f8)
+
 
 
 
