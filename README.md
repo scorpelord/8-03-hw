@@ -10,13 +10,14 @@ SELECT
 FROM 
     information_schema.tables
 WHERE 
-    table_schema = 'database_molostvov';
+    table_schema = 'sakila';
 
 ```
 
 При необходимости прикрепитe сюда скриншоты
 
-![first-table](https://github.com/user-attachments/assets/553bc368-d15e-4cb5-86b7-10c4670351dd)
+![first-table](https://github.com/user-attachments/assets/6318b440-0b1c-448b-b2d2-97341945d45f)
+
 
 
 
