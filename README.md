@@ -1,4 +1,4 @@
-# Домашнее задание к занятию "Система мониторинга Zabbix" - `Молоствов Андрей`
+# Домашнее задание к занятию "Работа с данными (DDL/DML)" - `Молоствов Андрей`
 
 ---
 
@@ -7,33 +7,33 @@
 ```
 Поле для вставки кода...
 
-apt-get install postgresql
+wget https://dev.mysql.com/get/mysql-apt-config_0.8.26-1_all.deb
 
-wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_latest_6.0+debian12_all.deb
-
-dpkg -i zabbix-release_latest_6.0+debian12_all.deb
+dpkg -i mysql-apt-config_0.8.26-1_all.deb
 
 apt update
 
-apt install zabbix-server-pgsql zabbix-frontend-php php8.2-pgsql zabbix-apache-conf zabbix-sql-scripts
+apt install mysql-server
 
-su - postgres -c 'psql --command "CREATE USER zabbix WITH PASSWORD
-'\'123456789\'';"'
+systemctl start mysql
 
-su - postgres -c 'psql --command "CREATE DATABASE zabbix OWNER zabbix;"'
+mysql_secure_installation
+
+systemctl enable mysql
 
 nano file /etc/zabbix/zabbix_server.conf
 
-systemctl restart zabbix-server apache2![4](https://github.com/user-attachments/assets/a7c107b0-64c1-4a10-84b0-2323f7b4cc40)
+mysql -u root -p
 
-systemctl enable zabbix-server apache2
-
-https://192.168.123.3/zabbix
+MySQL:
+DROP USER 'sys_temp'@'localhost';
+CREATE USER 'sys_temp'@'localhost' IDENTIFIED BY 'password';
 
 ```
 
 `При необходимости прикрепитe сюда скриншоты
-![Adminka](https://github.com/user-attachments/assets/78d6c9af-58a3-4249-be3e-f7f3b2e56302)
+![first-table](https://github.com/user-attachments/assets/0a77e5f6-c729-44dd-8a43-f5ad73dee6ec)
+
 
 
 
