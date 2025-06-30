@@ -20,6 +20,37 @@ Master-Master
 
 
 ```
+nano /etc/mysql/my.cnf
+[mysqld]
+server-id = 1
+log-bin = mysql-bin
+
+systemctl restart mysql
+
+mysql -u sys_temp -p
+CREATE USER 'replica_user'@'%' IDENTIFIED BY 'password';
+   GRANT REPLICATION SLAVE ON *.* TO 'replica_user'@'%';
+   FLUSH PRIVILEGES;
+
+SHOW MASTER STATUS;
+
+nano /etc/mysql/my.cnf
+[mysqld]
+server-id = 2
+
+systemctl restart mysql
+
+CHANGE MASTER TO
+     MASTER_HOST='master_host',
+     MASTER_USER='replica_user',
+     MASTER_PASSWORD='password',
+     MASTER_LOG_FILE='mysql-bin.000001',
+     MASTER_LOG_POS=786;
+
+START SLAVE;
+
+SHOW SLAVE STATUS\G
+
 
 
 ```
