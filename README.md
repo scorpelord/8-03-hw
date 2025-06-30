@@ -71,6 +71,7 @@ MySQL:
 ```
 
 `При необходимости прикрепитe сюда скриншоты
+
 ![forty-table](https://github.com/user-attachments/assets/26de16ab-1527-4348-ae12-97ff9c55ed3a)
 
 
