@@ -32,6 +32,7 @@ CREATE USER 'sys_temp'@'localhost' IDENTIFIED BY 'password';
 ```
 
 `При необходимости прикрепитe сюда скриншоты
+
 ![first-table](https://github.com/user-attachments/assets/0a77e5f6-c729-44dd-8a43-f5ad73dee6ec)
 
 
