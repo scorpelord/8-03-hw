@@ -25,7 +25,7 @@ ecryptfs-migrate-home -u cryptouser
 
 ### Задание 2
 
-
+В конце раздел был размонтирован и закрыт для конфиденциальности и безопасности данных.
 
 ```
 apt install cryptsetup
@@ -37,6 +37,9 @@ cryptsetup open /dev/loop0 encrypted-volume
 mkfs.ext4 /dev/mapper/encrypted-volume
 mkdir /mnt/encrypted
 mount /dev/mapper/encrypted-volume /mnt/encrypted
+
+umount /mnt/encrypted
+cryptsetup close encrypted-volume
 
 
 ```
