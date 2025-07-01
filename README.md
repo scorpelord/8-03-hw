@@ -28,10 +28,22 @@ ecryptfs-migrate-home -u cryptouser
 
 
 ```
+apt install cryptsetup
+fallocate -l 100M luks-volume.img
+losetup -fP luks-volume.img
+losetup -l
+cryptsetup luksFormat /dev/loop0
+cryptsetup open /dev/loop0 encrypted-volume
+mkfs.ext4 /dev/mapper/encrypted-volume
+mkdir /mnt/encrypted
+mount /dev/mapper/encrypted-volume /mnt/encrypted
+
 
 ```
 
 При необходимости прикрепитe сюда скриншоты
+
+![second-table](https://github.com/user-attachments/assets/44224629-ddd6-4d68-b397-e8c1d01a27b1)
 
 
 
