@@ -14,7 +14,7 @@
 
 Используемые команды указаны ниже
 ```
-nmap -sV -p-
+nmap -sV -p- 10.0.2.15
 
 ```
 
@@ -22,6 +22,7 @@ nmap -sV -p-
 
 ![tables](https://github.com/user-attachments/assets/5fdb60a5-7a71-414a-80f7-0a1a567de890)
 
+![tables2](https://github.com/user-attachments/assets/47f212cf-d764-40be-a617-8ac7440a62db)
 
 
 
