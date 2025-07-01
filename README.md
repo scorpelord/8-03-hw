@@ -20,6 +20,8 @@ nmap -sV -p-
 
 При необходимости прикрепитe сюда скриншоты
 
+![tables](https://github.com/user-attachments/assets/5fdb60a5-7a71-414a-80f7-0a1a567de890)
+
 
 
 
