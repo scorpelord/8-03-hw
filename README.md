@@ -28,9 +28,16 @@ systemctl restart fail2ban
 Используемые команды указаны ниже
 ```
 
+
 ```
 
 При необходимости прикрепитe сюда скриншоты
+
+![1](https://github.com/user-attachments/assets/60addc9b-ee50-4d67-b050-f3eb5ebae620)
+![2](https://github.com/user-attachments/assets/570de8d7-7cdf-40a9-b57f-a4717fb83ed3)
+![3](https://github.com/user-attachments/assets/ffeafc38-db69-493d-a63d-ea9eaff8d00a)
+
+
 
 
 
