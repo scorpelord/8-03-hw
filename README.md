@@ -36,6 +36,14 @@ git status
 
 
 ```
+touch .gitignore
+git status
+git add .gitignore
+mkdir terraform
+touch terraform/.gitignore
+nano terraform/.gitignore
+git add terraform/.gitignore README.md
+git commit -m "Added gitignore"
 
 ```
 
