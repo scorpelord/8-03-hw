@@ -25,6 +25,9 @@ git status
 
 ![five](https://github.com/user-attachments/assets/71db3b2d-880a-4918-b81b-aa818fe242c8)
 
+![sex](https://github.com/user-attachments/assets/1af7b5e5-ade1-4a2b-aa19-a59d6d5c7ca4)
+
+
 
 
 ---
