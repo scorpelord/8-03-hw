@@ -8,6 +8,7 @@
 git clone https://github.com/scorpelord/devops-netology.git
 cd devops-netology
 git config --global user.name
+git config --global user.email mr.molostvov@gmail.com
 ```
 
 При необходимости прикрепитe сюда скриншоты
