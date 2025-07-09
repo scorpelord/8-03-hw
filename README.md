@@ -49,7 +49,27 @@ git commit -m "Added gitignore"
 
 При необходимости прикрепитe сюда скриншоты
 
+![seven](https://github.com/user-attachments/assets/61a78b86-8d8d-4d78-9758-d5cd1072f42c)
 
+
+### Задание 3
+
+
+```
+touch .gitignore
+git status
+git add .gitignore
+mkdir terraform
+touch terraform/.gitignore
+nano terraform/.gitignore
+git add terraform/.gitignore README.md
+git commit -m "Added gitignore"
+
+```
+
+При необходимости прикрепитe сюда скриншоты
+
+![seven](https://github.com/user-attachments/assets/61a78b86-8d8d-4d78-9758-d5cd1072f42c)
 
 
 
