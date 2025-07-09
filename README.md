@@ -10,6 +10,7 @@ cd devops-netology
 git config --global user.name
 git config --global user.email mr.molostvov@gmail.com
 git status
+
 ```
 
 При необходимости прикрепитe сюда скриншоты
@@ -22,6 +23,8 @@ git status
 
 ![for](https://github.com/user-attachments/assets/61504f39-d865-4a1c-a8c2-1e61acec5508)
 
+
+![five](https://github.com/user-attachments/assets/d60a7368-e88e-4206-b099-dd2196e543c7)
 
 
 ---
