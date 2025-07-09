@@ -7,7 +7,7 @@
 ```
 git clone https://github.com/scorpelord/devops-netology.git
 cd devops-netology
-
+git config --global user.name
 ```
 
 При необходимости прикрепитe сюда скриншоты
@@ -17,6 +17,8 @@ cd devops-netology
 
 ![second](https://github.com/user-attachments/assets/f18e7c05-3f94-4c9e-9bf8-3ae29ad61965)
 
+
+![tri](https://github.com/user-attachments/assets/a37cfadb-0e09-44d5-9767-b67dc4d253aa)
 
 
 
