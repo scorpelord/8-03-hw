@@ -16,7 +16,9 @@ git config --global user.email mr.molostvov@gmail.com
 ![first](https://github.com/user-attachments/assets/048cd346-901d-4332-a76c-5af5dae584a8)
 
 
-![second](https://github.com/user-attachments/assets/f18e7c05-3f94-4c9e-9bf8-3ae29ad61965)
+
+![second](https://github.com/user-attachments/assets/9fa666ca-0c6f-4e9d-a79c-7d2aeb77d231)
+
 
 
 ![tri](https://github.com/user-attachments/assets/a37cfadb-0e09-44d5-9767-b67dc4d253aa)
