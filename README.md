@@ -56,7 +56,13 @@ git commit -m "Added gitignore"
 
 
 ```
-
+echo "will_be_deleted" > will_be_deleted.txt
+echo "will_be_moved" > will_be_moved.txt
+git add will_be_deleted.txt will_be_moved.txt
+git commit -m "Prepare to delete and move"
+git rm will_be_deleted.txt
+git mv will_be_moved.txt has_been_moved.txt
+git commit -m "Moved and deleted"
 
 ```
 
