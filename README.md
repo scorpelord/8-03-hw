@@ -20,7 +20,7 @@ git remote -v
 ---
 
 ### Задание 2
-.[GitLabsTags](https://gitlab.com/scorpelord-group/devops-netology/-/tags)
+[GitLabsTags](https://gitlab.com/scorpelord-group/devops-netology/-/tags)
 ```
 git tag v0.0
 git tag -a v0.1 -m "Release version 0.1"
