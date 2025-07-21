@@ -15,6 +15,7 @@ git remote -v
 
 При необходимости прикрепитe сюда скриншоты
 
+<img width="992" height="494" alt="image" src="https://github.com/user-attachments/assets/6c8e73cf-dc22-4fad-8bf1-f3befa99844e" />
 
 
 ---
@@ -34,6 +35,25 @@ git push origin v0.1
 ```
 
 При необходимости прикрепитe сюда скриншоты
+
+### Задание 3
+
+```
+git checkout main
+git log --oneline
+git checkout 7514d6b
+git switch -c fix
+git push -u origin fix
+git add README.md
+git commit -m "Update README.md with new line"
+git push
+
+```
+
+При необходимости прикрепитe сюда скриншоты
+
+[NAME1](https://github.com/user-attachments/assets/6c8e73cf-dc22-4fad-8bf1-f3befa99844e)
+
 
 
 
