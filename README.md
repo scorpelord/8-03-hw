@@ -37,6 +37,7 @@ git push origin v0.1
 При необходимости прикрепитe сюда скриншоты
 
 ### Задание 3
+[GitHub](https://github.com/scorpelord/devops-netology)
 
 ```
 git checkout main
