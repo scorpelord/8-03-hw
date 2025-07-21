@@ -3,7 +3,7 @@
 ---
 
 ### Задание 1
-Используемые команды указаны ниже
+[GitLAb1](https://gitlab.com/scorpelord-group/devops-netology)
 ```
 
 
