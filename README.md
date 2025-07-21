@@ -103,7 +103,27 @@ git add rebase.sh
 git commit -m "git-rebase 2"
 git push origin git-rebase
 
+git checkout main
+git merge git-merge
+git rebase main git-rebase
+git checkout main
+git merge git-rebase
+git push origin main
 
+git checkout main
+git merge git-merge
+git push
+
+git checkout git-rebase
+git rebase -i main
+git add rebase.sh
+git rebase --continue
+
+git add rebase.sh
+git rebase --continue
+git push -u origin git-rebase -f
+git checkout main
+git merge git-rebase
 
 ```
 
@@ -125,4 +145,4 @@ git push origin git-rebase
 
 
 
-....
+
