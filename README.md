@@ -15,7 +15,7 @@ git remote -v
 
 При необходимости прикрепитe сюда скриншоты
 
-<img width="992" height="494" alt="image" src="https://github.com/user-attachments/assets/6c8e73cf-dc22-4fad-8bf1-f3befa99844e" />
+
 
 
 ---
@@ -52,7 +52,7 @@ git push
 
 При необходимости прикрепитe сюда скриншоты
 
-[NAME1](https://github.com/user-attachments/assets/6c8e73cf-dc22-4fad-8bf1-f3befa99844e)
+<img width="992" height="494" alt="image" src="https://github.com/user-attachments/assets/6c8e73cf-dc22-4fad-8bf1-f3befa99844e" />
 
 
 
