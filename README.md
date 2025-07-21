@@ -3,7 +3,7 @@
 ---
 
 ### Задание 1
-[GitLAb1](https://gitlab.com/scorpelord-group/devops-netology)
+[GitLab_zadanie#1](https://gitlab.com/scorpelord-group/devops-netology)
 ```
 
 
