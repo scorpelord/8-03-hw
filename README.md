@@ -101,9 +101,22 @@ exit
 ### Задание 5
 
 ```
-
+mkdir -p /tmp/netology/docker/task5
+cd /tmp/netology/docker/task5
+nano compose.yaml
+nano docker-compose.yaml
+docker-compose up -d
+nano compose.yaml
+docker-compose up -d
+docker tag scorpelord/custom-nginx:1.0.0 127.0.0.1:5000/custom-nginx:latest
+docker push 127.0.0.1:5000/custom-nginx:latest
 ```
 
 При необходимости прикрепитe сюда скриншоты
 
+<img width="1123" height="334" alt="image" src="https://github.com/user-attachments/assets/181430a8-5c78-4ffa-9ad0-5c14c82bdc20" />
+
+<img width="1113" height="334" alt="image" src="https://github.com/user-attachments/assets/90ce2811-656f-4cd1-8268-1d6df3359b48" />
+
+<img width="1034" height="211" alt="image" src="https://github.com/user-attachments/assets/b7a675a3-dfb0-4ccd-8c87-0d4bde8cf998" />
 
