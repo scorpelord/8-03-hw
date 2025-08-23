@@ -20,6 +20,7 @@ docker push scorpelord/custom-nginx:1.0.0
 
 При необходимости прикрепитe сюда скриншоты
 <img width="721" height="178" alt="image" src="https://github.com/user-attachments/assets/f3070915-337c-47af-937a-01f5928de1e2" />
+
 <img width="719" height="219" alt="image" src="https://github.com/user-attachments/assets/430168ae-ceaf-491f-b1a6-1f30849041e1" />
 
 
