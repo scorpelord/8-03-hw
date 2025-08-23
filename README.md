@@ -61,4 +61,5 @@ docker ps -a
 
 <img width="650" height="250" alt="image" src="https://github.com/user-attachments/assets/afc5e2c3-62b6-4ae6-b376-20e800f8be1e" />
 
+<img width="721" height="414" alt="image" src="https://github.com/user-attachments/assets/7977c472-b63a-4daf-9bed-0fbf5aeb0084" />
 
