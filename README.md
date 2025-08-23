@@ -110,7 +110,9 @@ nano compose.yaml
 docker-compose up -d
 docker tag scorpelord/custom-nginx:1.0.0 127.0.0.1:5000/custom-nginx:latest
 docker push 127.0.0.1:5000/custom-nginx:latest
-
+rm -r compose.yaml
+docker-compose up -d
+docker-compose down
 ```
 
 При необходимости прикрепитe сюда скриншоты
@@ -126,4 +128,6 @@ docker push 127.0.0.1:5000/custom-nginx:latest
 <img width="1059" height="611" alt="image" src="https://github.com/user-attachments/assets/8faa95ed-5ba4-44cc-9179-13736ff335ef" />
 
 <img width="414" height="599" alt="image" src="https://github.com/user-attachments/assets/6ccf385c-5e76-4155-8e03-f44292f43476" />
+
+<img width="1104" height="294" alt="image" src="https://github.com/user-attachments/assets/cf0ff771-e6e7-414b-98c1-ad0ae5cccad1" />
 
