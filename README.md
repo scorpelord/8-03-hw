@@ -45,3 +45,12 @@ docker exec -it custom-nginx-t2 base64 /usr/share/nginx/html/index.html
 <img width="450" height="249" alt="image" src="https://github.com/user-attachments/assets/9a0f69ea-00be-4540-aea5-5f754837f251" />
 <img width="741" height="374" alt="image" src="https://github.com/user-attachments/assets/c4d5db88-e39d-443d-8ecf-0e390e95094e" />
 <img width="1238" height="217" alt="image" src="https://github.com/user-attachments/assets/5ae4541f-f47c-4897-a402-0adbc87a622c" />
+
+### Задание 3
+
+```
+
+```
+
+При необходимости прикрепитe сюда скриншоты
+
