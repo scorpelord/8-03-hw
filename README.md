@@ -48,9 +48,16 @@ docker exec -it custom-nginx-t2 base64 /usr/share/nginx/html/index.html
 
 ### Задание 3
 
+контейнер остановился, потому что это команда прерывания, которая завершает основной процесс в контейнере, в состоянии "Exited", так как основной процесс Nginx был прерван
+
 ```
+docker attach custom-nginx-t2
+docker ps -a
+
 
 ```
 
 При необходимости прикрепитe сюда скриншоты
+
+<img width="1169" height="493" alt="image" src="https://github.com/user-attachments/assets/8faa882d-6fd5-471f-8737-3be29e478e2c" />
 
