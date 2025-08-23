@@ -49,12 +49,23 @@ docker exec -it custom-nginx-t2 base64 /usr/share/nginx/html/index.html
 ### Задание 3
 
 контейнер остановился, потому что это команда прерывания, которая завершает основной процесс в контейнере, в состоянии "Exited", так как основной процесс Nginx был прерван
+после изменения конфигурации Nginx на использование порта 81, Nginx больше не слушает на порту 80 внутри контейнера. Это приводит к тому, что перенаправление с хоста (порт 8080) на контейнер (порт 80) не работает, так как порт 80 внутри контейнера не используется.
 
 ```
 docker attach custom-nginx-t2
 docker ps -a
-
-
+docker start custom-nginx-t2
+docker exec -it custom-nginx-t2 bash
+apt-get update
+apt-get install -y nano
+nano /etc/nginx/conf.d/default.conf
+nginx -s reload
+curl http://127.0.0.1:80
+curl http://127.0.0.1:81
+ss -tlpn | grep 127.0.0.1:8080
+docker port custom-nginx-t2
+curl http://127.0.0.1:8080
+docker rm -f custom-nginx-t2
 ```
 
 При необходимости прикрепитe сюда скриншоты
@@ -66,3 +77,33 @@ docker ps -a
 <img width="617" height="276" alt="image" src="https://github.com/user-attachments/assets/8ff2f462-35be-4bf7-ba77-b6794e84b8c2" />
 
 <img width="891" height="156" alt="image" src="https://github.com/user-attachments/assets/910a768a-8bec-4022-a689-d846bfce90e5" />
+
+### Задание 4
+
+```
+docker run -d --name centos-container -v $(pwd):/data centos:7 sleep infinity
+docker run -d --name debian-container -v $(pwd):/data debian:latest sleep infinity
+docker exec -it centos-container bash
+echo "Hello from CentOS" > /data/centos-file.txt
+exit
+echo "Hello from Host" > $(pwd)/host-file.txt
+docker exec -it debian-container bash
+ls /data
+cat /data/centos-file.txt
+cat /data/host-file.txt
+exit
+```
+
+При необходимости прикрепитe сюда скриншоты
+
+<img width="989" height="552" alt="image" src="https://github.com/user-attachments/assets/24667500-14e3-4d46-8ed7-8ea4bce1e3ea" />
+
+### Задание 5
+
+```
+
+```
+
+При необходимости прикрепитe сюда скриншоты
+
+
