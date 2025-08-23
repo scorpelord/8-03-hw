@@ -31,9 +31,17 @@ docker push scorpelord/custom-nginx:1.0.0
 ```
 docker run -d --name molostvovas-custom-nginx-t2 -p 127.0.0.1:8081:80 scorpelord/custom-nginx:1.0.0
 curl http://127.0.0.1:8081
-
+docker rename molostvovas-custom-nginx-t2 custom-nginx-t2
+date +"%d-%m-%Y %T.%N %Z"
+sleep 0.150
+docker ps
+ss -tlpn | grep 127.0.0.1:8080
+docker logs custom-nginx-t2 -n1
+docker exec -it custom-nginx-t2 base64 /usr/share/nginx/html/index.html
 ```
 
 При необходимости прикрепитe сюда скриншоты
 
 <img width="450" height="249" alt="image" src="https://github.com/user-attachments/assets/9a0f69ea-00be-4540-aea5-5f754837f251" />
+<img width="741" height="374" alt="image" src="https://github.com/user-attachments/assets/c4d5db88-e39d-443d-8ecf-0e390e95094e" />
+<img width="1238" height="217" alt="image" src="https://github.com/user-attachments/assets/5ae4541f-f47c-4897-a402-0adbc87a622c" />
