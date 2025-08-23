@@ -59,5 +59,6 @@ docker ps -a
 
 При необходимости прикрепитe сюда скриншоты
 
-<img width="1169" height="493" alt="image" src="https://github.com/user-attachments/assets/8faa882d-6fd5-471f-8737-3be29e478e2c" />
+<img width="650" height="250" alt="image" src="https://github.com/user-attachments/assets/afc5e2c3-62b6-4ae6-b376-20e800f8be1e" />
+
 
