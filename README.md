@@ -99,6 +99,7 @@ exit
 <img width="989" height="552" alt="image" src="https://github.com/user-attachments/assets/24667500-14e3-4d46-8ed7-8ea4bce1e3ea" />
 
 ### Задание 5
+По умолчанию будет использован файл docker-compose.yaml. потому, что Docker Compose по умолчанию ищет файл с именем docker-compose.yml или docker-compose.yaml
 
 ```
 mkdir -p /tmp/netology/docker/task5
