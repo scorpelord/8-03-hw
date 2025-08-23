@@ -27,9 +27,9 @@ docker push scorpelord/custom-nginx:1.0.0
 
 
 ### Задание 2
-Так как порт 8080 занят и необходим под другие здачи, был выделн порт 8081
+
 ```
-docker run -d --name molostvovas-custom-nginx-t2 -p 127.0.0.1:8081:80 scorpelord/custom-nginx:1.0.0
+docker run -d --name molostvovas-custom-nginx-t2 -p 127.0.0.1:8080:80 scorpelord/custom-nginx:1.0.0
 curl http://127.0.0.1:8081
 docker rename molostvovas-custom-nginx-t2 custom-nginx-t2
 date +"%d-%m-%Y %T.%N %Z"
@@ -42,8 +42,8 @@ docker exec -it custom-nginx-t2 base64 /usr/share/nginx/html/index.html
 
 При необходимости прикрепитe сюда скриншоты
 
-<img width="450" height="249" alt="image" src="https://github.com/user-attachments/assets/9a0f69ea-00be-4540-aea5-5f754837f251" />
-<img width="741" height="374" alt="image" src="https://github.com/user-attachments/assets/c4d5db88-e39d-443d-8ecf-0e390e95094e" />
+<img width="1114" height="512" alt="image" src="https://github.com/user-attachments/assets/61dad75b-33c2-4b81-9076-d0754eea856c" />
+
 <img width="1238" height="217" alt="image" src="https://github.com/user-attachments/assets/5ae4541f-f47c-4897-a402-0adbc87a622c" />
 
 ### Задание 3
