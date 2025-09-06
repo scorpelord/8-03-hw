@@ -28,7 +28,11 @@ docker run -p 5000:5000 python:3.12-slim
 
 ```
 touch compose.yaml
-"version: '3.8'
+"
+version: '3.8'
+
+include:
+  - proxy.yaml
 
 services:
   web:
@@ -40,10 +44,10 @@ services:
         ipv4_address: 172.20.0.5
     restart: always
     environment:
-      DB_HOST: db
-      DB_USER: ${DB_USER}
-      DB_PASSWORD: ${DB_PASSWORD}
-      DB_NAME: ${DB_NAME}
+      MYSQL_HOST: db
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
     ports:
       - "8090:5000"
 
@@ -55,34 +59,23 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
-      MYSQL_DATABASE: ${DB_NAME}
-      MYSQL_USER: ${DB_USER}
-      MYSQL_PASSWORD: ${DB_PASSWORD}
-    volumes:
-      - db_data:/var/lib/mysql
-
-networks:
-  backend:
-    external: true
-
-volumes:
-  db_data:
-
-include:
-  - proxy.yaml
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
 "
 docker-compose -f compose.yaml up -d
 docker ps
-
+docker-compose -f compose.yaml up -d
 
 ```
 
 При необходимости прикрепитe сюда скриншоты
 
-<img width="1222" height="219" alt="image" src="https://github.com/user-attachments/assets/01adaa1e-1d13-4759-9bb5-5e3875c2895a" />
+<img width="1130" height="156" alt="image" src="https://github.com/user-attachments/assets/6cb5f038-0a94-4c16-8d89-723bf64e1b23" />
 
 <img width="377" height="476" alt="image" src="https://github.com/user-attachments/assets/174d8af6-aa66-4c22-8e09-3d8b3d242ae1" />
 
+<img width="1126" height="109" alt="image" src="https://github.com/user-attachments/assets/678a9733-fef1-4182-b118-88ca4cb016c5" />
 
 
 
