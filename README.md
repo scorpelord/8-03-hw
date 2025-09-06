@@ -119,5 +119,22 @@ chmod +x deploy.sh
 <img width="544" height="356" alt="image" src="https://github.com/user-attachments/assets/896ee1e4-90b8-4686-91da-4a1748608cd1" />
 
 
+### Задание 6
+Используемые команды указаны ниже
+
+```
+docker pull hashicorp/terraform:latest
+docker save hashicorp/terraform:latest -o terraform.tar
+wget https://github.com/wagoodman/dive/releases/download/v0.10.0/dive_0.10.0_linux_amd64.deb
+dpkg -i dive_0.10.0_linux_amd64.deb
+dive terraform.tar
+docker create -ti --name temp_terraform hashicorp/terraform:latest bash
+docker cp temp_terraform:/bin/terraform ./terraform
+docker rm temp_terraform
+```
+
+При необходимости прикрепитe сюда скриншоты
+
+<img width="1232" height="261" alt="image" src="https://github.com/user-attachments/assets/a873fc79-a0b5-45b5-85f8-03e8541aa07a" />
 
 
