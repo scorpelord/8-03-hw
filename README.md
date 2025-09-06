@@ -110,10 +110,8 @@ chmod +x deploy.sh
 
 При необходимости прикрепитe сюда скриншоты
 
-<img width="1237" height="480" alt="image" src="https://github.com/user-attachments/assets/8d83a774-913f-4859-9bd1-45a3b33970fb" />
+<img width="1115" height="478" alt="image" src="https://github.com/user-attachments/assets/5e564717-7d68-4e28-bfab-b49098215794" />
 
-
-<img width="670" height="229" alt="image" src="https://github.com/user-attachments/assets/407d041d-4139-4e61-90da-44ccc39d1c6a" />
 
 
 
