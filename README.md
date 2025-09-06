@@ -79,6 +79,8 @@ docker-compose -f compose.yaml up -d
 ### Задание 4
 Используемые команды указаны ниже
 
+https://github.com/scorpelord/shvirtd-example-python
+
 ```
 ssh -l vm1 158.160.177.248
 sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
