@@ -76,6 +76,16 @@ docker-compose -f compose.yaml up -d
 
 <img width="1126" height="109" alt="image" src="https://github.com/user-attachments/assets/678a9733-fef1-4182-b118-88ca4cb016c5" />
 
+### Задание 4
+Используемые команды указаны ниже
+
+```
+
+
+```
+
+При необходимости прикрепитe сюда скриншоты
+
 
 
 
