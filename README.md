@@ -114,6 +114,7 @@ chmod +x deploy.sh
 
 <img width="1236" height="194" alt="image" src="https://github.com/user-attachments/assets/bfd7a51b-af89-4837-83f0-49d83bef1a5c" />
 
+<img width="544" height="356" alt="image" src="https://github.com/user-attachments/assets/896ee1e4-90b8-4686-91da-4a1748608cd1" />
 
 
 
