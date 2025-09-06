@@ -80,11 +80,39 @@ docker-compose -f compose.yaml up -d
 Используемые команды указаны ниже
 
 ```
+ssh -l vm1 158.160.177.248
+sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+sudo apt-get update
+sudo apt-get install docker-ce
+touch deploy.sh
+"
+#!/bin/bash
 
+# Переменные
+REPO_URL="https://github.com/<your_username>/<your_fork>.git"
+PROJECT_DIR="/opt/shvirtd-example-python"
+
+# Клонирование репозитория
+sudo git clone $REPO_URL $PROJECT_DIR
+
+# Перемещение в каталог проекта
+cd $PROJECT_DIR
+
+# Запуск Docker Compose
+sudo docker-compose -f compose.yaml up -d
+"
+chmod +x deploy.sh
+./deploy.sh
 
 ```
 
 При необходимости прикрепитe сюда скриншоты
+
+<img width="1212" height="287" alt="image" src="https://github.com/user-attachments/assets/f26a4128-87cd-4770-8cb0-171b7a918095" />
+
+<img width="670" height="229" alt="image" src="https://github.com/user-attachments/assets/407d041d-4139-4e61-90da-44ccc39d1c6a" />
 
 
 
