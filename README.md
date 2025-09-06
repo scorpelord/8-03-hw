@@ -119,7 +119,7 @@ chmod +x deploy.sh
 <img width="544" height="356" alt="image" src="https://github.com/user-attachments/assets/896ee1e4-90b8-4686-91da-4a1748608cd1" />
 
 
-### Задание 6
+### Задание 6-6.1
 Используемые команды указаны ниже
 
 ```
