@@ -116,7 +116,8 @@ chmod +x deploy.sh
 
 <img width="1236" height="194" alt="image" src="https://github.com/user-attachments/assets/bfd7a51b-af89-4837-83f0-49d83bef1a5c" />
 
-<img width="744" height="433" alt="image" src="https://github.com/user-attachments/assets/15d444e5-6bf7-4b0f-afac-e2cc9fdd285f" />
+<img width="871" height="453" alt="image" src="https://github.com/user-attachments/assets/70892167-a175-4661-bbe2-48913021c363" />
+
 
 
 ### Задание 6-6.1
