@@ -72,7 +72,7 @@ docker-compose -f compose.yaml up -d
 
 <img width="1130" height="156" alt="image" src="https://github.com/user-attachments/assets/6cb5f038-0a94-4c16-8d89-723bf64e1b23" />
 
-<img width="377" height="476" alt="image" src="https://github.com/user-attachments/assets/174d8af6-aa66-4c22-8e09-3d8b3d242ae1" />
+<img width="531" height="412" alt="image" src="https://github.com/user-attachments/assets/9af27b5d-5e3b-4a17-9dc4-7f4eb39fd5cf" />
 
 <img width="1126" height="109" alt="image" src="https://github.com/user-attachments/assets/678a9733-fef1-4182-b118-88ca4cb016c5" />
 
