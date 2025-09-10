@@ -42,6 +42,9 @@ value: "yes"
 nano terraform.tfstate
 nano main.tf
 terraform validate
+terraform init
+terraform apply
+docker ps
 
 ```
 
@@ -56,3 +59,5 @@ terraform validate
 <img width="562" height="437" alt="image" src="https://github.com/user-attachments/assets/e1730164-c118-444e-85d3-a5fb48ef2442" />
 
 <img width="464" height="61" alt="image" src="https://github.com/user-attachments/assets/e77d93e2-60a6-4dfe-b032-c0d0135d7d16" />
+
+<img width="1244" height="479" alt="image" src="https://github.com/user-attachments/assets/edceff49-d772-490f-9730-b9b3cef1e396" />
