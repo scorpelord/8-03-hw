@@ -45,7 +45,7 @@ terraform validate
 terraform init
 terraform apply
 docker ps
-
+terraform apply -auto-approve
 ```
 
 При необходимости прикрепитe сюда скриншоты
@@ -61,3 +61,5 @@ docker ps
 <img width="464" height="61" alt="image" src="https://github.com/user-attachments/assets/e77d93e2-60a6-4dfe-b032-c0d0135d7d16" />
 
 <img width="1244" height="479" alt="image" src="https://github.com/user-attachments/assets/edceff49-d772-490f-9730-b9b3cef1e396" />
+
+<img width="1011" height="228" alt="image" src="https://github.com/user-attachments/assets/b3ae1fa1-111c-4c1f-ac79-a078dea59721" />
