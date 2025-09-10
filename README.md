@@ -30,6 +30,8 @@ git clone https://github.com/netology-code/ter-homeworks.git
 cd ter-homeworks/01/src
 terraform init
 terraform apply
+value: "yes"
+nano terraform.tfstate
 
 ```
 
@@ -38,3 +40,5 @@ terraform apply
 <img width="494" height="171" alt="image" src="https://github.com/user-attachments/assets/7cacbf07-e19c-4c96-abe7-698ecee2d7ed" />
 
 <img width="709" height="528" alt="image" src="https://github.com/user-attachments/assets/46665a87-4feb-41e4-be64-52c229322a05" />
+
+<img width="840" height="549" alt="image" src="https://github.com/user-attachments/assets/939b8ab0-ccff-4758-9547-05592470eb72" />
