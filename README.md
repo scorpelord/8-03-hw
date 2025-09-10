@@ -32,6 +32,8 @@ terraform init
 terraform apply
 value: "yes"
 nano terraform.tfstate
+nano main.tf
+terraform validate
 
 ```
 
@@ -42,3 +44,7 @@ nano terraform.tfstate
 <img width="709" height="528" alt="image" src="https://github.com/user-attachments/assets/46665a87-4feb-41e4-be64-52c229322a05" />
 
 <img width="840" height="549" alt="image" src="https://github.com/user-attachments/assets/939b8ab0-ccff-4758-9547-05592470eb72" />
+
+<img width="562" height="437" alt="image" src="https://github.com/user-attachments/assets/e1730164-c118-444e-85d3-a5fb48ef2442" />
+
+<img width="464" height="61" alt="image" src="https://github.com/user-attachments/assets/e77d93e2-60a6-4dfe-b032-c0d0135d7d16" />
