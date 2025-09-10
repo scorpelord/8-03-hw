@@ -23,10 +23,12 @@ docker --version
 
 ### Задание 1
 
-
-
 ```
+git clone https://github.com/netology-code/ter-homeworks.git
+cd ter-homeworks/01/src
 
 ```
 
 При необходимости прикрепитe сюда скриншоты
+
+<img width="494" height="171" alt="image" src="https://github.com/user-attachments/assets/7cacbf07-e19c-4c96-abe7-698ecee2d7ed" />
