@@ -23,6 +23,8 @@ docker --version
 
 ### Задание 1
 
+Согласно .gitignore, личную, секретную информацию допустимо сохранить в файле personal.auto.tfvars. Этот файл будет проигнорирован Git и не попадет в систему контроля версий.
+
 ```
 git clone https://github.com/netology-code/ter-homeworks.git
 cd ter-homeworks/01/src
