@@ -49,6 +49,8 @@ terraform init
 terraform apply
 docker ps
 terraform apply -auto-approve
+terraform destroy -auto-approve
+docker ps -a
 ```
 
 При необходимости прикрепитe сюда скриншоты
@@ -66,3 +68,8 @@ terraform apply -auto-approve
 <img width="1244" height="479" alt="image" src="https://github.com/user-attachments/assets/edceff49-d772-490f-9730-b9b3cef1e396" />
 
 <img width="1011" height="228" alt="image" src="https://github.com/user-attachments/assets/b3ae1fa1-111c-4c1f-ac79-a078dea59721" />
+
+<img width="1021" height="176" alt="image" src="https://github.com/user-attachments/assets/042fbabe-5efe-49bc-a5a1-99ff68c87db3" />
+
+<img width="1012" height="134" alt="image" src="https://github.com/user-attachments/assets/cc4ba119-cbac-4694-b101-c94d4c49166a" />
+
