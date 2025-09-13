@@ -144,6 +144,8 @@ docker rm temp_terraform
 
 <img width="850" height="324" alt="image" src="https://github.com/user-attachments/assets/033e109b-277f-419e-902c-dad0f4eb0ba7" />
 
+<img width="979" height="101" alt="image" src="https://github.com/user-attachments/assets/747c351f-0a3f-4749-8fa0-cc0ca4942fff" />
+
 
 <img width="1076" height="71" alt="image" src="https://github.com/user-attachments/assets/f727c32f-46fa-4c98-9572-9c9e05bf9517" />
 
