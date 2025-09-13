@@ -7,6 +7,7 @@
 ```
 terraform init
 terraform validate
+terraform apply
 
 ```
 
@@ -23,6 +24,10 @@ terraform validate
 <img width="669" height="259" alt="image" src="https://github.com/user-attachments/assets/7363280b-e0c5-453f-8869-b27f89d947b0" />
 
 <img width="479" height="43" alt="image" src="https://github.com/user-attachments/assets/00ab1295-6841-443e-a50a-73170c6261ea" />
+
+<img width="614" height="212" alt="image" src="https://github.com/user-attachments/assets/0e674ffd-67e6-4d4b-8e81-6599717792cf" />
+
+<img width="416" height="463" alt="image" src="https://github.com/user-attachments/assets/63c104d6-b0af-47fb-bf4f-c393fc28d98e" />
 
 
 ### Задание 2
