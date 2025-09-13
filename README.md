@@ -136,6 +136,14 @@ docker rm temp_terraform
 
 При необходимости прикрепитe сюда скриншоты
 
+<img width="710" height="144" alt="image" src="https://github.com/user-attachments/assets/185fecf0-beb7-4ffc-96d4-862842248989" />
+
+<img width="737" height="334" alt="image" src="https://github.com/user-attachments/assets/cbe129fe-f964-403b-9c30-d1f299d5416f" />
+
+<img width="536" height="194" alt="image" src="https://github.com/user-attachments/assets/202a1855-c295-4c29-8f97-22367dcb1fc1" />
+
+<img width="850" height="324" alt="image" src="https://github.com/user-attachments/assets/033e109b-277f-419e-902c-dad0f4eb0ba7" />
+
 
 <img width="1076" height="71" alt="image" src="https://github.com/user-attachments/assets/f727c32f-46fa-4c98-9572-9c9e05bf9517" />
 
