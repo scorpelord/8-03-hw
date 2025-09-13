@@ -22,6 +22,8 @@ terraform validate
 
 <img width="669" height="259" alt="image" src="https://github.com/user-attachments/assets/7363280b-e0c5-453f-8869-b27f89d947b0" />
 
+<img width="479" height="43" alt="image" src="https://github.com/user-attachments/assets/00ab1295-6841-443e-a50a-73170c6261ea" />
+
 
 ### Задание 2
 
