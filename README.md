@@ -3,9 +3,10 @@
 
 
 ### Задание 1
-Используемые команды указаны ниже
+Ошибка указывает на то, что Terraform не может найти файл ~/.authorized_key.json. Это происходит потому, что функция file() ищет файл в относительном пути от текущего рабочего каталога Terraform, а не в домашней директории пользователя.
 ```
 terraform init
+terraform validate
 
 ```
 
@@ -18,6 +19,8 @@ terraform init
 <img width="714" height="115" alt="image" src="https://github.com/user-attachments/assets/8dbcbd03-7926-4a47-9710-27da5bcd1651" />
 
 <img width="717" height="173" alt="image" src="https://github.com/user-attachments/assets/b9f59d60-afb0-49a3-9ba5-19a7ffa4bdcb" />
+
+<img width="669" height="259" alt="image" src="https://github.com/user-attachments/assets/7363280b-e0c5-453f-8869-b27f89d947b0" />
 
 
 ### Задание 2
