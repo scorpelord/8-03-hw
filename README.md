@@ -50,6 +50,19 @@ terraform apply
 
 
 ```
+terraform apply
+terraform output
+
+```
+
+При необходимости прикрепитe сюда скриншоты
+
+<img width="555" height="458" alt="image" src="https://github.com/user-attachments/assets/b217aed9-c216-430d-a9d9-858143384c68" />
+
+### Задание 5
+
+
+```
 
 
 ```
