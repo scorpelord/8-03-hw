@@ -74,3 +74,14 @@ terraform apply
 
 <img width="756" height="586" alt="image" src="https://github.com/user-attachments/assets/d62c5159-fcae-49ea-802d-4e4e27e5294a" />
 
+### Задание 6
+
+
+```
+terraform plan
+terraform apply
+
+```
+
+При необходимости прикрепитe сюда скриншоты
+
