@@ -31,7 +31,7 @@ resource "yandex_compute_instance" "develop_vm" {
     ssh-keys           = "ubuntu:${var.vms_ssh_root_key}"
   }
 
-  # Добавляем теги с использованием local-переменных
+
   labels = {
     instance_name = local.vm_web_name
     full_name     = local.vm_web_full_name
@@ -72,7 +72,7 @@ resource "yandex_compute_instance" "develop_db" {
     ssh-keys           = "ubuntu:${var.vms_ssh_root_key}"
   }
 
-  # Добавляем теги с использованием local-переменных
+  
   labels = {
     instance_name = local.vm_db_name
     full_name     = local.vm_db_full_name
