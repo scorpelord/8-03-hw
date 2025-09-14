@@ -1,0 +1,284 @@
+ Error: Argument or block definition required
+│ 
+│   on vms_platform.tf line 115:
+│  115: /*
+│ 
+│ An argument or block definition is required here.
+╵
+
+root@vm1:~/ter-homeworks/02/src# nano vms_platform.tf 
+root@vm1:~/ter-homeworks/02/src# terraform init
+
+Initializing the backend...
+Terraform encountered problems during initialisation, including problems
+with the configuration, described below.
+
+The Terraform configuration must be valid before initialization so that
+Terraform can determine which modules and providers need to be installed.
+╷
+│ Error: Duplicate variable declaration
+│ 
+│   on vms_platform.tf line 136:
+│  136: variable "vm_web_name" {
+│ 
+│ A variable named "vm_web_name" was already declared at vms_platform.tf:3,1-23. Variable names must be
+│ unique within a module.
+╵
+
+╷
+│ Error: Duplicate variable declaration
+│ 
+│   on vms_platform.tf line 136:
+│  136: variable "vm_web_name" {
+│ 
+│ A variable named "vm_web_name" was already declared at vms_platform.tf:3,1-23. Variable names must be
+│ unique within a module.
+╵
+
+╷
+│ Error: Duplicate variable declaration
+│ 
+│   on vms_platform.tf line 142:
+│  142: variable "vm_web_platform_id" {
+│ 
+│ A variable named "vm_web_platform_id" was already declared at vms_platform.tf:9,1-30. Variable names
+│ must be unique within a module.
+╵
+
+╷
+│ Error: Duplicate variable declaration
+│ 
+│   on vms_platform.tf line 142:
+│  142: variable "vm_web_platform_id" {
+│ 
+│ A variable named "vm_web_platform_id" was already declared at vms_platform.tf:9,1-30. Variable names
+│ must be unique within a module.
+╵
+
+╷
+│ Error: Duplicate variable declaration
+│ 
+│   on vms_platform.tf line 148:
+│  148: variable "vm_web_preemptible" {
+│ 
+│ A variable named "vm_web_preemptible" was already declared at vms_platform.tf:15,1-30. Variable names
+│ must be unique within a module.
+╵
+
+╷
+│ Error: Duplicate variable declaration
+│ 
+│   on vms_platform.tf line 148:
+│  148: variable "vm_web_preemptible" {
+│ 
+│ A variable named "vm_web_preemptible" was already declared at vms_platform.tf:15,1-30. Variable names
+│ must be unique within a module.
+╵
+
+╷
+│ Error: Duplicate variable declaration
+│ 
+│   on vms_platform.tf line 154:
+│  154: variable "vm_web_nat" {
+│ 
+│ A variable named "vm_web_nat" was already declared at vms_platform.tf:21,1-22. Variable names must be
+│ unique within a module.
+╵
+
+╷
+│ Error: Duplicate variable declaration
+│ 
+│   on vms_platform.tf line 154:
+│  154: variable "vm_web_nat" {
+│ 
+│ A variable named "vm_web_nat" was already declared at vms_platform.tf:21,1-22. Variable names must be
+│ unique within a module.
+╵
+
+╷
+│ Error: Duplicate variable declaration
+│ 
+│   on vms_platform.tf line 160:
+│  160: variable "vm_web_image_family" {
+│ 
+│ A variable named "vm_web_image_family" was already declared at vms_platform.tf:27,1-31. Variable names
+│ must be unique within a module.
+╵
+
+╷
+│ Error: Duplicate variable declaration
+│ 
+│   on vms_platform.tf line 160:
+│  160: variable "vm_web_image_family" {
+│ 
+│ A variable named "vm_web_image_family" was already declared at vms_platform.tf:27,1-31. Variable names
+│ must be unique within a module.
+╵
+
+╷
+│ Error: Duplicate variable declaration
+│ 
+│   on vms_platform.tf line 168:
+│  168: variable "vm_db_name" {
+│ 
+│ A variable named "vm_db_name" was already declared at vms_platform.tf:35,1-22. Variable names must be
+│ unique within a module.
+╵
+
+╷
+│ Error: Duplicate variable declaration
+│ 
+│   on vms_platform.tf line 168:
+│  168: variable "vm_db_name" {
+│ 
+│ A variable named "vm_db_name" was already declared at vms_platform.tf:35,1-22. Variable names must be
+│ unique within a module.
+╵
+
+╷
+│ Error: Duplicate variable declaration
+│ 
+│   on vms_platform.tf line 174:
+│  174: variable "vm_db_platform_id" {
+│ 
+│ A variable named "vm_db_platform_id" was already declared at vms_platform.tf:41,1-29. Variable names
+│ must be unique within a module.
+╵
+
+╷
+│ Error: Duplicate variable declaration
+│ 
+│   on vms_platform.tf line 174:
+│  174: variable "vm_db_platform_id" {
+│ 
+│ A variable named "vm_db_platform_id" was already declared at vms_platform.tf:41,1-29. Variable names
+│ must be unique within a module.
+╵
+
+╷
+│ Error: Duplicate variable declaration
+│ 
+│   on vms_platform.tf line 180:
+│  180: variable "vm_db_preemptible" {
+│ 
+│ A variable named "vm_db_preemptible" was already declared at vms_platform.tf:47,1-29. Variable names
+│ must be unique within a module.
+╵
+
+╷
+│ Error: Duplicate variable declaration
+│ 
+│   on vms_platform.tf line 180:
+│  180: variable "vm_db_preemptible" {
+│ 
+│ A variable named "vm_db_preemptible" was already declared at vms_platform.tf:47,1-29. Variable names
+│ must be unique within a module.
+╵
+
+╷
+│ Error: Duplicate variable declaration
+│ 
+│   on vms_platform.tf line 186:
+│  186: variable "vm_db_nat" {
+│ 
+│ A variable named "vm_db_nat" was already declared at vms_platform.tf:53,1-21. Variable names must be
+│ unique within a module.
+╵
+
+╷
+│ Error: Duplicate variable declaration
+│ 
+│   on vms_platform.tf line 186:
+│  186: variable "vm_db_nat" {
+│ 
+│ A variable named "vm_db_nat" was already declared at vms_platform.tf:53,1-21. Variable names must be
+│ unique within a module.
+╵
+
+╷
+│ Error: Duplicate variable declaration
+│ 
+│   on vms_platform.tf line 192:
+│  192: variable "vm_db_image_family" {
+│ 
+│ A variable named "vm_db_image_family" was already declared at vms_platform.tf:59,1-30. Variable names
+│ must be unique within a module.
+╵
+
+╷
+│ Error: Duplicate variable declaration
+│ 
+│   on vms_platform.tf line 192:
+│  192: variable "vm_db_image_family" {
+│ 
+│ A variable named "vm_db_image_family" was already declared at vms_platform.tf:59,1-30. Variable names
+│ must be unique within a module.
+╵
+
+╷
+│ Error: Duplicate variable declaration
+│ 
+│   on vms_platform.tf line 198:
+│  198: variable "vm_db_zone" {
+│ 
+│ A variable named "vm_db_zone" was already declared at vms_platform.tf:65,1-22. Variable names must be
+│ unique within a module.
+╵
+
+╷
+│ Error: Duplicate variable declaration
+│ 
+│   on vms_platform.tf line 198:
+│  198: variable "vm_db_zone" {
+│ 
+│ A variable named "vm_db_zone" was already declared at vms_platform.tf:65,1-22. Variable names must be
+│ unique within a module.
+╵
+
+╷
+│ Error: Duplicate variable declaration
+│ 
+│   on vms_platform.tf line 206:
+│  206: variable "vms_resources" {
+│ 
+│ A variable named "vms_resources" was already declared at vms_platform.tf:73,1-25. Variable names must
+│ be unique within a module.
+╵
+
+╷
+│ Error: Duplicate variable declaration
+│ 
+│   on vms_platform.tf line 206:
+│  206: variable "vms_resources" {
+│ 
+│ A variable named "vms_resources" was already declared at vms_platform.tf:73,1-25. Variable names must
+│ be unique within a module.
+╵
+
+╷
+│ Error: Duplicate variable declaration
+│ 
+│   on vms_platform.tf line 235:
+│  235: variable "metadata" {
+│ 
+│ A variable named "metadata" was already declared at vms_platform.tf:102,1-20. Variable names must be
+│ unique within a module.
+╵
+
+╷
+│ Error: Duplicate variable declaration
+│ 
+│   on vms_platform.tf line 235:
+│  235: variable "metadata" {
+│ 
+│ A variable named "metadata" was already declared at vms_platform.tf:102,1-20. Variable names must be
+│ unique within a module.
+╵
+
+╷
+│ Error: Argument or block definition required
+│ 
+│   on vms_platform.tf line 248:
+│  248: /*
+│ 
+│ An argument or block definition is required here.
