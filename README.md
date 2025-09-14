@@ -13,7 +13,7 @@ terraform apply
 
 При необходимости прикрепитe сюда скриншоты
 
-<img width="3075" height="142" alt="image" src="https://github.com/user-attachments/assets/e85f4ea6-0880-4bf8-addd-0969fea4ab88" />
+<img width="1968" height="277" alt="image" src="https://github.com/user-attachments/assets/3341bdf4-ec0c-4556-80dc-563c3d9a776a" />
 
 
 
