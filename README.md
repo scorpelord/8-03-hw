@@ -25,11 +25,13 @@ curl ifconfig.me
 
 
 ```
+terraform plan
 
 ```
 
 При необходимости прикрепитe сюда скриншоты
 
+<img width="804" height="433" alt="image" src="https://github.com/user-attachments/assets/03b0457a-c7a3-4e71-ac00-36bdd12f2947" />
 
 
 
