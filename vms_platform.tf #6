@@ -1,4 +1,4 @@
-### vm_web variables
+### vm_web basic variables
 
 variable "vm_web_name" {
   type        = string
@@ -12,6 +12,106 @@ variable "vm_web_platform_id" {
   description = "VM web platform ID"
 }
 
+variable "vm_web_preemptible" {
+  type        = bool
+  default     = false
+  description = "VM web preemptible setting"
+}
+
+variable "vm_web_nat" {
+  type        = bool
+  default     = true
+  description = "VM web NAT setting"
+}
+
+variable "vm_web_image_family" {
+  type        = string
+  default     = "ubuntu-2004-lts"
+  description = "VM web image family"
+}
+
+### vm_db basic variables
+
+variable "vm_db_name" {
+  type        = string
+  default     = "netology-develop-platform-db"
+  description = "VM db name"
+}
+
+variable "vm_db_platform_id" {
+  type        = string
+  default     = "standard-v1"
+  description = "VM db platform ID"
+}
+
+variable "vm_db_preemptible" {
+  type        = bool
+  default     = false
+  description = "VM db preemptible setting"
+}
+
+variable "vm_db_nat" {
+  type        = bool
+  default     = true
+  description = "VM db NAT setting"
+}
+
+variable "vm_db_image_family" {
+  type        = string
+  default     = "ubuntu-2004-lts"
+  description = "VM db image family"
+}
+
+variable "vm_db_zone" {
+  type        = string
+  default     = "ru-central1-b"
+  description = "VM db zone"
+}
+
+### vms_resources variable (replaces individual resource variables)
+
+variable "vms_resources" {
+  type = map(object({
+    cores         = number
+    memory        = number
+    core_fraction = number
+    disk_size     = number
+    disk_type     = string
+  }))
+  default = {
+    web = {
+      cores         = 2
+      memory        = 4
+      core_fraction = 100
+      disk_size     = 10
+      disk_type     = "network-ssd"
+    }
+    db = {
+      cores         = 2
+      memory        = 2
+      core_fraction = 20
+      disk_size     = 10
+      disk_type     = "network-ssd"
+    }
+  }
+  description = "Resources configuration for VMs"
+}
+
+### common metadata variable
+
+variable "metadata" {
+  type = object({
+    serial-port-enable = string
+    ssh-keys           = string
+  })
+  default = {
+    serial-port-enable = "1"
+    ssh-keys           = "ubuntu:ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMn+7vXES0vMXiEJNf24cTmed8tWeoJRn8tlCGusv+HN root@vm1"
+  }
+  description = "Common metadata for all VMs"
+}
+
+### Commented out unused variables
 # variable "vm_web_cores" {
 #   type        = number
 #   default     = 2
@@ -42,43 +142,11 @@ variable "vm_web_platform_id" {
 #   description = "VM web boot disk size in GB"
 # }
 
-variable "vm_web_preemptible" {
-  type        = bool
-  default     = false
-  description = "VM web preemptible setting"
-}
-
-variable "vm_web_nat" {
-  type        = bool
-  default     = true
-  description = "VM web NAT setting"
-}
-
 # variable "vm_web_serial_port_enable" {
 #   type        = string
 #   default     = "1"
 #   description = "VM web serial port enable setting"
 # }
-
-variable "vm_web_image_family" {
-  type        = string
-  default     = "ubuntu-2004-lts"
-  description = "VM web image family"
-}
-
-### vm_db variables
-
-variable "vm_db_name" {
-  type        = string
-  default     = "netology-develop-platform-db"
-  description = "VM db name"
-}
-
-variable "vm_db_platform_id" {
-  type        = string
-  default     = "standard-v1"
-  description = "VM db platform ID"
-}
 
 # variable "vm_db_cores" {
 #   type        = number
@@ -110,32 +178,14 @@ variable "vm_db_platform_id" {
 #   description = "VM db boot disk size in GB"
 # }
 
-variable "vm_db_preemptible" {
-  type        = bool
-  default     = false
-  description = "VM db preemptible setting"
-}
-
-variable "vm_db_nat" {
-  type        = bool
-  default     = true
-  description = "VM db NAT setting"
-}
-
 # variable "vm_db_serial_port_enable" {
 #   type        = string
 #   default     = "1"
 #   description = "VM db serial port enable setting"
 # }
 
-variable "vm_db_image_family" {
-  type        = string
-  default     = "ubuntu-2004-lts"
-  description = "VM db image family"
-}
-
-variable "vm_db_zone" {
-  type        = string
-  default     = "ru-central1-b"
-  description = "VM db zone"
-}
+# variable "vms_ssh_root_key" {
+#   type        = string
+#   default     = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMn+7vXES0vMXiEJNf24cTmed8tWeoJRn8tlCGusv+HN root@vm1"
+#   description = "ssh-keygen -t ed25519"
+# }
