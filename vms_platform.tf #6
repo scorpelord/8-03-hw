@@ -112,6 +112,7 @@ variable "metadata" {
 }
 
 ### Commented out unused variables
+/*
 # variable "vm_web_cores" {
 #   type        = number
 #   default     = 2
@@ -189,3 +190,4 @@ variable "metadata" {
 #   default     = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMn+7vXES0vMXiEJNf24cTmed8tWeoJRn8tlCGusv+HN root@vm1"
 #   description = "ssh-keygen -t ed25519"
 # }
+*/
