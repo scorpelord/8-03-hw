@@ -15,6 +15,7 @@ terraform apply
 
 <img width="1968" height="277" alt="image" src="https://github.com/user-attachments/assets/3341bdf4-ec0c-4556-80dc-563c3d9a776a" />
 
+<img width="637" height="408" alt="image" src="https://github.com/user-attachments/assets/e1a88545-76b6-4dbe-ba2d-a43f6c81c03a" />
 
 
 ### Задание 2
