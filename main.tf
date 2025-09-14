@@ -13,27 +13,27 @@ data "yandex_compute_image" "ubuntu" {
   family = "ubuntu-2004-lts"
 }
 
-resource "yandex_compute_instance" "platform" {
-  name        = "netology-develop-platform-web"
-  platform_id = "standard-v4"
+resource "yandex_compute_instance" "develop_vm" {
+  name        = "develop-vm"
+  platform_id = "standard-v1" 
   zone        = var.default_zone
 
   resources {
-    cores         = 1
-    memory        = 1
-    core_fraction = 5
+    cores         = 2
+    memory        = 4
+    core_fraction = 100
   }
 
   boot_disk {
     initialize_params {
       image_id = data.yandex_compute_image.ubuntu.image_id
-      type     = "network-hdd"
-      size     = 5
+      type     = "network-ssd"
+      size     = 10
     }
   }
 
   scheduling_policy {
-    preemptible = true
+    preemptible = false
   }
 
   network_interface {
