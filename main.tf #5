@@ -1,0 +1,80 @@
+resource "yandex_compute_instance" "develop_vm" {
+  name        = local.vm_web_name  # Используем local-переменную
+  platform_id = var.vm_web_platform_id
+  zone        = var.default_zone
+
+  resources {
+    cores         = var.vm_web_cores
+    memory        = var.vm_web_memory
+    core_fraction = var.vm_web_core_fraction
+  }
+
+  boot_disk {
+    initialize_params {
+      image_id = data.yandex_compute_image.ubuntu.image_id
+      type     = var.vm_web_disk_type
+      size     = var.vm_web_disk_size
+    }
+  }
+
+  scheduling_policy {
+    preemptible = var.vm_web_preemptible
+  }
+
+  network_interface {
+    subnet_id = yandex_vpc_subnet.develop_a.id
+    nat       = var.vm_web_nat
+  }
+
+  metadata = {
+    serial-port-enable = var.vm_web_serial_port_enable
+    ssh-keys           = "ubuntu:${var.vms_ssh_root_key}"
+  }
+
+  # Добавляем теги с использованием local-переменных
+  labels = {
+    instance_name = local.vm_web_name
+    full_name     = local.vm_web_full_name
+    project       = "netology"
+  }
+}
+
+resource "yandex_compute_instance" "develop_db" {
+  name        = local.vm_db_name  # Используем local-переменную
+  platform_id = var.vm_db_platform_id
+  zone        = var.vm_db_zone
+
+  resources {
+    cores         = var.vm_db_cores
+    memory        = var.vm_db_memory
+    core_fraction = var.vm_db_core_fraction
+  }
+
+  boot_disk {
+    initialize_params {
+      image_id = data.yandex_compute_image.ubuntu_db.image_id
+      type     = var.vm_db_disk_type
+      size     = var.vm_db_disk_size
+    }
+  }
+
+  scheduling_policy {
+    preemptible = var.vm_db_preemptible
+  }
+
+  network_interface {
+    subnet_id = yandex_vpc_subnet.develop_b.id
+    nat       = var.vm_db_nat
+  }
+
+  metadata = {
+    serial-port-enable = var.vm_db_serial_port_enable
+    ssh-keys           = "ubuntu:${var.vms_ssh_root_key}"
+  }
+
+  # Добавляем теги с использованием local-переменных
+  labels = {
+    instance_name = local.vm_db_name
+    full_name     = local.vm_db_full_name
+    project       = "netology"
+  }
