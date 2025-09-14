@@ -138,4 +138,3 @@ variable "vm_db_zone" {
   type        = string
   default     = "ru-central1-b"
   description = "VM db zone"
-}
