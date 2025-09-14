@@ -1,10 +1,13 @@
 locals {
+  # Формирование имен ВМ с использованием интерполяции
   vm_web_name = "${var.vm_web_name}-${var.default_zone}"
   vm_db_name  = "${var.vm_db_name}-${var.vm_db_zone}"
-
+  
+  # Дополнительные local-переменные для демонстрации
   vm_web_full_name = "project-${var.vm_web_name}-${var.default_zone}"
   vm_db_full_name  = "project-${var.vm_db_name}-${var.vm_db_zone}"
   
+
   vms_info = {
     web = {
       name      = local.vm_web_name
