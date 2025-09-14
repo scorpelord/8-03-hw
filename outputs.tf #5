@@ -1,0 +1,26 @@
+output "vm_web_info" {
+  description = "Information about the web VM"
+  value = {
+    instance_name = yandex_compute_instance.develop_vm.name
+    local_name    = local.vm_web_name
+    full_name     = local.vm_web_full_name
+    external_ip   = yandex_compute_instance.develop_vm.network_interface[0].nat_ip_address
+    fqdn          = yandex_compute_instance.develop_vm.fqdn
+  }
+}
+
+output "vm_db_info" {
+  description = "Information about the database VM"
+  value = {
+    instance_name = yandex_compute_instance.develop_db.name
+    local_name    = local.vm_db_name
+    full_name     = local.vm_db_full_name
+    external_ip   = yandex_compute_instance.develop_db.network_interface[0].nat_ip_address
+    fqdn          = yandex_compute_instance.develop_db.fqdn
+  }
+}
+
+output "local_vms_info" {
+  description = "All local VMs information"
+  value       = local.vms_info
+}
