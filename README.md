@@ -33,9 +33,15 @@ terraform plan
 
 <img width="804" height="433" alt="image" src="https://github.com/user-attachments/assets/03b0457a-c7a3-4e71-ac00-36bdd12f2947" />
 
+### Задание 2
 
 
+```
+terraform plan
+terraform apply
 
+```
 
+При необходимости прикрепитe сюда скриншоты
 
-
+<img width="818" height="336" alt="image" src="https://github.com/user-attachments/assets/57d540d9-eb2a-423a-ad5e-14e259ca9252" />
