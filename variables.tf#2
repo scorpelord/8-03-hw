@@ -1,0 +1,92 @@
+###cloud vars
+
+variable "vpc_name" {
+  description = "Name of the VPC network"
+  default     = "develop-network"
+}
+
+variable "default_zone" {
+  description = "Default zone for resources"
+  default     = "ru-central1-a"
+}
+
+variable "default_cidr" {
+  description = "Default CIDR block for subnet"
+  default     = ["10.1.0.0/24"]
+}
+
+###ssh vars
+
+variable "vms_ssh_root_key" {
+  type        = string
+  default     = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMn+7vXES0vMXiEJNf24cTmed8tWeoJRn8tlCGusv+HN root@vm1"
+  description = "ssh-keygen -t ed25519"
+}
+
+###vm_web variables
+
+variable "vm_web_name" {
+  type        = string
+  default     = "develop-vm"
+  description = "VM web name"
+}
+
+variable "vm_web_platform_id" {
+  type        = string
+  default     = "standard-v1"
+  description = "VM web platform ID"
+}
+
+variable "vm_web_cores" {
+  type        = number
+  default     = 2
+  description = "VM web number of cores"
+}
+
+variable "vm_web_memory" {
+  type        = number
+  default     = 4
+  description = "VM web memory in GB"
+}
+
+variable "vm_web_core_fraction" {
+  type        = number
+  default     = 100
+  description = "VM web core fraction percentage"
+}
+
+variable "vm_web_disk_type" {
+  type        = string
+  default     = "network-ssd"
+  description = "VM web boot disk type"
+}
+
+variable "vm_web_disk_size" {
+  type        = number
+  default     = 10
+  description = "VM web boot disk size in GB"
+}
+
+variable "vm_web_preemptible" {
+  type        = bool
+  default     = false
+  description = "VM web preemptible setting"
+}
+
+variable "vm_web_nat" {
+  type        = bool
+  default     = true
+  description = "VM web NAT setting"
+}
+
+variable "vm_web_serial_port_enable" {
+  type        = string
+  default     = "1"
+  description = "VM web serial port enable setting"
+}
+
+variable "vm_web_image_family" {
+  type        = string
+  default     = "ubuntu-2004-lts"
+  description = "VM web image family"
+}
