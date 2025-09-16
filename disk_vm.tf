@@ -8,13 +8,11 @@ resource "yandex_compute_disk" "storage_disks" {
   size     = 1 # 1 Гб
   block_size = 4096
 
-  
   labels = {
     environment = "develop"
     purpose     = "storage"
   }
 }
-
 
 resource "yandex_compute_instance" "storage" {
   name        = "storage"
@@ -28,12 +26,11 @@ resource "yandex_compute_instance" "storage" {
 
   boot_disk {
     initialize_params {
-      image_id = data.yandex_compute_image.ubuntu.id
+      image_id = "fd8vmcue7aajpmeo39kk" 
       size     = 10
     }
   }
 
-  
   dynamic "secondary_disk" {
     for_each = { for idx, disk in yandex_compute_disk.storage_disks : idx => disk.id }
     content {
@@ -55,6 +52,5 @@ resource "yandex_compute_instance" "storage" {
     preemptible = true
   }
 
-  # Зависимость от создания дисков
   depends_on = [yandex_compute_disk.storage_disks]
 }
