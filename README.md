@@ -49,4 +49,9 @@ terraform apply
 
 При необходимости прикрепитe сюда скриншоты
 
+<img width="1046" height="426" alt="изображение" src="https://github.com/user-attachments/assets/b742a443-8e28-42a9-a02e-5f90791ba81c" />
+
+<img width="1102" height="257" alt="изображение" src="https://github.com/user-attachments/assets/d32797bf-f98c-41f9-a138-923c840f8535" />
+
+<img width="1799" height="431" alt="изображение" src="https://github.com/user-attachments/assets/3c9507f4-1fb0-4c54-ad4b-435e02735c9d" />
 
