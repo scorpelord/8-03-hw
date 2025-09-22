@@ -1,34 +1,38 @@
 ###cloud vars
-variable "token" {
+variable "yc_token" {
   type        = string
-  description = "y0__xC6tL7SAxjB3RMg_OrOsRTEhon6oHyjKVWh_PrZCQXuojerAg"
+  description = "Yandex Cloud OAuth token"
+  sensitive   = true
 }
 
-variable "cloud_id" {
+variable "yc_cloud_id" {
   type        = string
-  description = "b1gm2hhvpo0k8vknjufs"
+  description = "Yandex Cloud ID"
+  sensitive   = true
 }
 
-variable "folder_id" {
+variable "yc_folder_id" {
   type        = string
-  description = "b1gnttbof2828gavj87b"
+  description = "Yandex Cloud Folder ID"
+  sensitive   = true
 }
 
-variable "default_zone" {
+variable "yc_zone" {
   type        = string
   default     = "ru-central1-a"
-  description = "ru-central1-a"
-}
-variable "default_cidr" {
-  type        = list(string)
-  default     = ["10.0.1.0/24"]
-  description = "https://cloud.yandex.ru/docs/vpc/operations/subnet-create"
+  description = "Yandex Cloud default zone"
 }
 
 variable "vpc_name" {
   type        = string
   default     = "develop"
   description = "VPC network&subnet name"
+}
+
+variable "default_cidr" {
+  type        = list(string)
+  default     = ["10.0.1.0/24"]
+  description = "https://cloud.yandex.ru/docs/vpc/operations/subnet-create"
 }
 
 ### VM variables
