@@ -64,6 +64,15 @@ echo 'some_fact: "el default fact"' > group_vars/el/examp.yml
 ### Задание 6
 
 ```
+ansible-playbook -i inventory/prod.yml site.yml
+```
+
+<img width="1255" height="638" alt="image" src="https://github.com/user-attachments/assets/9bb0b7c5-3604-4357-83bc-73c5e8944fe6" />
+
+### Задание 7
 
 ```
+
+```
+
 
