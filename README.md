@@ -100,9 +100,20 @@ ansible-doc -t connection -l
 ### Задание 10
 
 ```
+nano inventory/prod.yml
+
+```
+
+<img width="1255" height="638" alt="image" src="https://github.com/user-attachments/assets/594f94e6-fa4f-4d30-82f7-6dd21fc6db7e" />
+
+### Задание 11
+
+```
 
 
 ```
+
+
 
 
 
