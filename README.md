@@ -1,5 +1,6 @@
 # Домашнее задание к занятию "Введение в Ansible" - `Молоствов Андрей`
 
+#ССЫЛКА НА РЕПОЗИТОРИЙ - https://github.com/scorpelord/ansible-playbook
 
 ### Задание 1
 
