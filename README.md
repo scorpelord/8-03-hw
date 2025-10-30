@@ -32,9 +32,19 @@ nano group_vars/all/examp.yml
 ### Задание 3
 
 ```
+snap install docker
+docker run -d --name debian-container pycontribs/debian:latest sleep 6000
+
+```
+<img width="1248" height="222" alt="image" src="https://github.com/user-attachments/assets/61d922a0-0a3c-457f-889f-c4f547611898" />
+
+### Задание 4
+
+```
 
 
 ```
+
 
 
 
