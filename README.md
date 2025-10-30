@@ -83,9 +83,16 @@ ansible-vault encrypt group_vars/el/examp.yml --vault-password-file=vault.key
 ### Задание 8
 
 ```
+ansible-playbook -i inventory/prod.yml site.yml --ask-vault-pass
+```
+
+<img width="1255" height="638" alt="image" src="https://github.com/user-attachments/assets/95544b02-9b7b-4057-8609-f3aeca7013a8" />
+
+### Задание 9
 
 ```
 
+```
 
 
 
