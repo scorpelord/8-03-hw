@@ -1,4 +1,4 @@
-# Домашнее задание к занятию "Введение в Ansible" - `Молоствов Андрей`
+<img width="1255" height="638" alt="image" src="https://github.com/user-attachments/assets/a7b697d8-58c5-4754-8dc3-0e6f13f5212f" /># Домашнее задание к занятию "Введение в Ansible" - `Молоствов Андрей`
 
 ---
 
@@ -91,8 +91,20 @@ ansible-playbook -i inventory/prod.yml site.yml --ask-vault-pass
 ### Задание 9
 
 ```
+ansible-doc -t connection -l
 
 ```
+
+<img width="1255" height="638" alt="image" src="https://github.com/user-attachments/assets/df4f17cb-e42f-4499-abf0-d9cbf9399862" />
+
+### Задание 10
+
+```
+
+
+```
+
+
 
 
 
