@@ -54,8 +54,16 @@ ansible-playbook -i inventory/test.yml site.yml
 ### Задание 5
 
 ```
+mkdir -p group_vars/deb
+mkdir -p group_vars/el
+echo 'some_fact: "deb default fact"' > group_vars/deb/examp.yml
+echo 'some_fact: "el default fact"' > group_vars/el/examp.yml
 
 ```
 
+### Задание 6
 
+```
+
+```
 
