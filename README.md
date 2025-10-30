@@ -41,10 +41,21 @@ docker run -d --name debian-container pycontribs/debian:latest sleep 6000
 ### Задание 4
 
 ```
+docker run -d --name ubuntu pycontribs/ubuntu:latest sleep 6000
+docker run -d --name centos7 pycontribs/centos:7 sleep 6000
+ansible-playbook -i inventory/test.yml site.yml
+```
+<img width="1255" height="216" alt="image" src="https://github.com/user-attachments/assets/3c49519c-9cdc-46d9-a2f6-509a949fbd44" />
 
+<img width="1255" height="228" alt="image" src="https://github.com/user-attachments/assets/fa18524e-b206-44f8-8174-a2898a7c2f6d" />
+
+<img width="1257" height="635" alt="image" src="https://github.com/user-attachments/assets/a730970b-6afb-431a-9fa9-405943be468c" />
+
+### Задание 5
 
 ```
 
+```
 
 
 
