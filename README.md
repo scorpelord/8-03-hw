@@ -72,7 +72,20 @@ ansible-playbook -i inventory/prod.yml site.yml
 ### Задание 7
 
 ```
+echo "netology" > vault.key
+chmod 600 vault.key
+ansible-vault encrypt group_vars/deb/examp.yml --vault-password-file=vault.key
+ansible-vault encrypt group_vars/el/examp.yml --vault-password-file=vault.key
+```
+
+<img width="1255" height="638" alt="image" src="https://github.com/user-attachments/assets/99c6b100-9716-47ff-99bb-2d03aa06436a" />
+
+### Задание 8
 
 ```
+
+```
+
+
 
 
