@@ -1,9 +1,8 @@
 # Домашнее задание к занятию "Введение в Ansible" - `Молоствов Андрей`
 
----
 
 ### Задание 1
-Используемые команды указаны ниже
+
 ```
 apt install ansible-core
 
@@ -109,10 +108,14 @@ nano inventory/prod.yml
 ### Задание 11
 
 ```
-
+ansible-playbook -i inventory/final.yml site.yml --ask-vault-pass
 
 ```
 
+<img width="1407" height="817" alt="image" src="https://github.com/user-attachments/assets/99609c0e-7ab1-4ae8-a6bb-7f7d7467b15f" />
+
+
+<img width="1407" height="799" alt="image" src="https://github.com/user-attachments/assets/9f40e8fa-3a18-4766-a1d0-7934fc2de03d" />
 
 
 
