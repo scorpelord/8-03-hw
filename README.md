@@ -6,44 +6,19 @@
 
 <img width="1103" height="91" alt="image" src="https://github.com/user-attachments/assets/e11a1414-6a71-4d56-991f-8844c7b46aa3" />
 
+### Задание 6
 
----
+<img width="1223" height="100" alt="image" src="https://github.com/user-attachments/assets/481b79ec-0be7-444c-ad69-bb2432cddf2d" />
 
-### Задание 2
+### Задание 7
 
-Только заметил, что установлен старый VMBox и нет в сети выбора нескольких адаптеров, чтобы соединить 2 хоста на zabbix server, так как указать не могу, могу прокомментрировать принцип подключения: 
-1) установка zabbix-agent на 2-ю VM с официального сайта zabbix
-2) изменить в /etc/zabbix/zabbix_server.conf Server= 192.168.123.0/24 - указав подсеть 2-х хостов.
-3) по принципу установки zabbix-agent на VM zabbix server - добавить новый узел, добавить одну общую группу и шаблон , указать IP VM и оставить порт по дефолту.
-Прикладываю снизу скриншот настроек VMBox.
+<img width="1223" height="100" alt="image" src="https://github.com/user-attachments/assets/9e917182-c66e-4fac-9c34-6b4e02474ac8" />
 
-```
-Поле для вставки кода...
+### Задание 8.1
 
-wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_latest_6.0+debian12_all.deb
+<img width="1223" height="100" alt="image" src="https://github.com/user-attachments/assets/7182784a-8de5-4fb7-92a3-b1ebe88d97c3" />
 
-dpkg -i zabbix-release_latest_6.0+debian12_all.deb
+### Задание 8.2
 
-apt update
+<img width="1223" height="100" alt="image" src="https://github.com/user-attachments/assets/4982abba-cbf5-45b5-9843-eea9170c50ef" />
 
-apt install zabbix-agent
-
-systemctl restart zabbix-agent
-
-systemctl enable zabbix-agent
-
-cat /vat/log/zabbix/zabbix_agentd.log
-```
-
-`При необходимости прикрепитe сюда скриншоты
-![Hosts](https://github.com/user-attachments/assets/d148e046-2b9d-4546-bc51-c613f5da4bba)
-![Logi](https://github.com/user-attachments/assets/2cdb909b-0691-4856-b282-85955bcd7557)
-![Latest Data](https://github.com/user-attachments/assets/e065fbd4-ff36-4b5d-87a9-f5d5a38d458a)
-
-
-
-
-
-
-
-....
