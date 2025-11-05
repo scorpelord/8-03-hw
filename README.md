@@ -1,6 +1,6 @@
 # Домашнее задание к занятию "Работа с Playbook" - `Молоствов Андрей`
 
----
+Ссылка на репозиторий с REAMDE.md - https://github.com/scorpelord/ansible-playbook/blob/work-with-playbook/README.md
 
 ### Задание 5
 
