@@ -3,6 +3,9 @@
 
 ### Задание 1-11
 
+1) https://github.com/scorpelord/ansible-monitoring-stack
+2) https://github.com/scorpelord/vector-role
+3) https://github.com/scorpelord/lighthouse-role
 
 <img width="944" height="184" alt="image" src="https://github.com/user-attachments/assets/929bcdad-d641-4769-9590-455262935d3b" />
 
