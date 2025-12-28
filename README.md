@@ -51,3 +51,8 @@
 <img width="1310" height="389" alt="image" src="https://github.com/user-attachments/assets/0df8879d-31f0-4044-8378-89eb4c002a61" />
 
 ### Задание 10
+
+<img width="944" height="417" alt="image" src="https://github.com/user-attachments/assets/22ab0cee-5ced-4845-88e7-77133dad3bdd" />
+
+### Задание 11
+
