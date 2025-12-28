@@ -66,3 +66,13 @@
 
 <img width="1616" height="554" alt="image" src="https://github.com/user-attachments/assets/7a103732-65c9-4c32-b2e5-a7e338fa77e7" />
 
+### Задание 14-15
+
+<img width="820" height="589" alt="image" src="https://github.com/user-attachments/assets/fceecd03-183e-418c-809c-98defd9e1d24" />
+
+<img width="1280" height="170" alt="image" src="https://github.com/user-attachments/assets/0037dcd3-8a0a-4e6a-8193-26d724079e2f" />
+
+<img width="376" height="242" alt="image" src="https://github.com/user-attachments/assets/7871ccd8-45b0-4be8-a5a6-cd2904712365" />
+
+### Задание 16
+
