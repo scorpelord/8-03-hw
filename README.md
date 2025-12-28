@@ -84,4 +84,5 @@
 
 ### Задание 18
 
+<img width="901" height="547" alt="image" src="https://github.com/user-attachments/assets/2c979ae8-d659-4ed5-8649-fc81287c60f1" />
 
