@@ -16,10 +16,10 @@
 <img width="840" height="483" alt="image" src="https://github.com/user-attachments/assets/7291f2cd-7527-47d9-a56f-065fafff5790" />
 
 ### Основная часть
-### Задание 1
+### Задание 1-2
 
 <img width="1635" height="427" alt="image" src="https://github.com/user-attachments/assets/79e7d627-be40-46fc-8d6d-5e1e961c745e" />
 
-### Задание 2
+### Задание 3
 
 <img width="1698" height="405" alt="image" src="https://github.com/user-attachments/assets/36e8ba61-7184-481b-92c0-5dac587b6466" />
