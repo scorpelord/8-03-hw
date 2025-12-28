@@ -41,3 +41,5 @@
 <img width="1294" height="584" alt="image" src="https://github.com/user-attachments/assets/ac7e2a3e-2906-4e7a-8483-2c6d5aa6cc6d" />
 
 <img width="1283" height="265" alt="image" src="https://github.com/user-attachments/assets/71c57f2b-d681-43fd-86ab-ad0a0820a03b" />
+
+### Задание 8
