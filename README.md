@@ -59,3 +59,10 @@
 <img width="918" height="543" alt="image" src="https://github.com/user-attachments/assets/d2c3923e-4f35-4ff6-80c2-b455596e8260" />
 
 ### Задание 12
+
+<img width="838" height="280" alt="image" src="https://github.com/user-attachments/assets/e19dd063-681c-4da9-b113-998d4f93481c" />
+
+### Задание 13
+
+<img width="1616" height="554" alt="image" src="https://github.com/user-attachments/assets/7a103732-65c9-4c32-b2e5-a7e338fa77e7" />
+
