@@ -56,3 +56,6 @@
 
 ### Задание 11
 
+<img width="918" height="543" alt="image" src="https://github.com/user-attachments/assets/d2c3923e-4f35-4ff6-80c2-b455596e8260" />
+
+### Задание 12
