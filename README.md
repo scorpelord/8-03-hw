@@ -23,3 +23,5 @@
 ### Задание 3
 
 <img width="1698" height="405" alt="image" src="https://github.com/user-attachments/assets/36e8ba61-7184-481b-92c0-5dac587b6466" />
+
+### Задание 4
