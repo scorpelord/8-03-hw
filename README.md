@@ -29,3 +29,9 @@
 <img width="1279" height="537" alt="image" src="https://github.com/user-attachments/assets/9b6de427-6685-4bfe-8ba0-3d93214e550b" />
 
 <img width="1282" height="367" alt="image" src="https://github.com/user-attachments/assets/0956afee-3fb3-4e8d-9f00-9223944b5991" />
+
+### Задание 5
+
+<img width="1294" height="499" alt="image" src="https://github.com/user-attachments/assets/ed7e8904-416e-44c9-98f7-94121e69d68b" />
+
+### Задание 6
