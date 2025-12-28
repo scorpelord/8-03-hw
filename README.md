@@ -34,4 +34,10 @@
 
 <img width="1294" height="499" alt="image" src="https://github.com/user-attachments/assets/ed7e8904-416e-44c9-98f7-94121e69d68b" />
 
-### Задание 6
+### Задание 6-7
+
+<img width="877" height="294" alt="image" src="https://github.com/user-attachments/assets/f67bad11-234d-4d58-bbd7-4f2d2657775f" />
+
+<img width="1294" height="584" alt="image" src="https://github.com/user-attachments/assets/ac7e2a3e-2906-4e7a-8483-2c6d5aa6cc6d" />
+
+<img width="1283" height="265" alt="image" src="https://github.com/user-attachments/assets/71c57f2b-d681-43fd-86ab-ad0a0820a03b" />
