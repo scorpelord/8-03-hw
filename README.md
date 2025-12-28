@@ -14,6 +14,9 @@
 
 <img width="1537" height="494" alt="image" src="https://github.com/user-attachments/assets/9565c1fb-3ee2-43f9-916f-8290aad1d7c4" />
 
+<img width="1628" height="184" alt="image" src="https://github.com/user-attachments/assets/ee047dda-71f5-4f7d-b707-773026b57e65" />
+
+
 ### Задание 2
 
 
