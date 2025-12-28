@@ -16,8 +16,9 @@
 
 <img width="1628" height="184" alt="image" src="https://github.com/user-attachments/assets/ee047dda-71f5-4f7d-b707-773026b57e65" />
 
+<img width="840" height="483" alt="image" src="https://github.com/user-attachments/assets/7291f2cd-7527-47d9-a56f-065fafff5790" />
 
-### Задание 2
+### Основная часть
 
 
 ```
