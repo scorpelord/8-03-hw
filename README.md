@@ -10,6 +10,9 @@
 
 <img width="1700" height="529" alt="image" src="https://github.com/user-attachments/assets/1e266bf7-43c8-45b8-b83c-3d8c75a15f0b" />
 
+<img width="1707" height="619" alt="image" src="https://github.com/user-attachments/assets/1bcb54ef-71c9-4ef3-9d36-d72e756770e1" />
+
+
 ### Задание 2
 
 
