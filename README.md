@@ -12,6 +12,7 @@
 
 <img width="1707" height="619" alt="image" src="https://github.com/user-attachments/assets/1bcb54ef-71c9-4ef3-9d36-d72e756770e1" />
 
+<img width="1537" height="494" alt="image" src="https://github.com/user-attachments/assets/9565c1fb-3ee2-43f9-916f-8290aad1d7c4" />
 
 ### Задание 2
 
