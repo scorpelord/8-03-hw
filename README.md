@@ -79,3 +79,9 @@
 <img width="1292" height="684" alt="image" src="https://github.com/user-attachments/assets/9865c008-490f-4f96-89d6-eccb33c7d6dd" />
 
 ### Задание 17
+
+<img width="1299" height="210" alt="image" src="https://github.com/user-attachments/assets/7485efae-bc57-4114-853b-fa7640959ac6" />
+
+### Задание 18
+
+
