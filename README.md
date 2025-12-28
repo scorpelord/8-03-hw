@@ -76,3 +76,6 @@
 
 ### Задание 16
 
+<img width="1292" height="684" alt="image" src="https://github.com/user-attachments/assets/9865c008-490f-4f96-89d6-eccb33c7d6dd" />
+
+### Задание 17
