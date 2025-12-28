@@ -43,3 +43,7 @@
 <img width="1283" height="265" alt="image" src="https://github.com/user-attachments/assets/71c57f2b-d681-43fd-86ab-ad0a0820a03b" />
 
 ### Задание 8
+
+<img width="824" height="1205" alt="image" src="https://github.com/user-attachments/assets/32796e64-e9b8-44f4-a5b2-6edc33b68086" />
+
+### Задание 9
