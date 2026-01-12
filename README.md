@@ -22,12 +22,21 @@ curl http://localhost:8080
 
 ### Задание 2
 
-
+```
+nano netology-web-pod.yaml
+nano netology-svc.yaml
+kubectl apply -f netology-web-pod.yaml
+kubectl apply -f netology-svc.yaml
+kubectl get pods
+kubectl get svc
+kubectl port-forward service/netology-svc 8080:80
 ```
 
-```
+<img width="640" height="155" alt="image" src="https://github.com/user-attachments/assets/b8b1e033-68e8-4be1-8ed9-c341f88c686c" />
 
+<img width="602" height="205" alt="image" src="https://github.com/user-attachments/assets/4e2aef4c-6f13-4f59-88dc-d06711effdd3" />
 
+<img width="505" height="484" alt="image" src="https://github.com/user-attachments/assets/096812c5-84f6-4e57-94c8-0a14b5250058" />
 
 
 
