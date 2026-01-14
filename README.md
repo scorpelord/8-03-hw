@@ -19,8 +19,6 @@ minikube ip
 kubectl get svc multi-nodeport
 curl http://192.168.49.2:30001
 ```
-<img width="721" height="214" alt="image" src="https://github.com/user-attachments/assets/6df5fc3a-78a8-4cd9-aebe-949292802f8b" />
-
 <img width="619" height="73" alt="image" src="https://github.com/user-attachments/assets/f333aee4-9459-4d43-a83d-0a5af2461a92" />
 
 <img width="631" height="110" alt="image" src="https://github.com/user-attachments/assets/e42f3249-245d-4349-8905-3e87e605c45a" />
