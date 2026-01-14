@@ -33,7 +33,20 @@ kubectl exec test-client -- nslookup multitool-service
 ### Задание 2
 
 ```
-
+nano nginx-init-deployment.yaml
+kubectl apply -f nginx-init-deployment.yaml
+kubectl get pods -l app=nginx-init -o wide
+kubectl describe pod -l app=nginx-init
+nano nginx-service.yaml
+kubectl apply -f nginx-service.yaml
+kubectl wait --for=condition=ready pod -l app=nginx-init --timeout=120s
+kubectl get pods -l app=nginx-init -o wide
+kubectl describe pod -l app=nginx-init
+kubectl get svc nginx-service
+kubectl run test-curl --image=curlimages/curl:latest --restart=Never --rm -it -- curl -s http://nginx-service
 ```
+<img width="717" height="286" alt="image" src="https://github.com/user-attachments/assets/c549a2f1-9d75-4b70-9e9b-3a958931939f" />
 
+<img width="715" height="426" alt="image" src="https://github.com/user-attachments/assets/3b3f9b8a-f8ff-42b5-af5f-9d2694a0a3ee" />
 
+<img width="719" height="316" alt="image" src="https://github.com/user-attachments/assets/415a856e-c4e2-4a51-84d9-5c3b9f637017" />
