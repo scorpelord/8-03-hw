@@ -36,6 +36,27 @@ curl http://192.168.49.2:30001
 
 
 ```
-
+nano deployment-frontend.yaml
+kubectl apply -f deployment-frontend.yaml
+nano deployment-backend.yaml
+kubectl apply -f deployment-backend.yaml
+nano service-frontend.yaml
+kubectl apply -f service-frontend.yaml
+nano service-backend.yaml
+kubectl apply -f service-backend.yaml
+minikube addons enable ingress
+kubectl get pods -n ingress-nginx
+nano ingress.yaml
+kubectl apply -f ingress.yaml
+kubectl get ingress
+minikube ip
+curl http://192.168.49.2/
+curl http://192.168.49.2/api
 ```
+<img width="654" height="90" alt="image" src="https://github.com/user-attachments/assets/26ca185a-3f94-41d3-92f4-48fbc688fd6b" />
 
+<img width="709" height="86" alt="image" src="https://github.com/user-attachments/assets/884234a7-7e93-41f2-9dfb-f47782c0e2ec" />
+
+<img width="585" height="75" alt="image" src="https://github.com/user-attachments/assets/0d92b6d9-9767-44e8-824b-70dc8e547251" />
+
+<img width="716" height="137" alt="image" src="https://github.com/user-attachments/assets/663320ec-341d-47dd-b29e-6bb3e05d052c" />
