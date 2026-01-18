@@ -1,0 +1,22 @@
+{{- if .Values.multitool.enabled }}
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Chart.Name }}-multitool
+  labels:
+    app: {{ .Chart.Name }}-multitool
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: {{ .Chart.Name }}-multitool
+  template:
+    metadata:
+      labels:
+        app: {{ .Chart.Name }}-multitool
+    spec:
+      containers:
+      - name: multitool
+        image: "{{ .Values.multitool.image.repository }}:{{ .Values.multitool.image.tag }}"
+        command: ["sleep", "infinity"]
+{{- end }}
