@@ -1,0 +1,20 @@
+# Общие настройки
+replicaCount: 1
+
+# Настройки образа
+image:
+  repository: nginx
+  tag: "alpine"
+  pullPolicy: IfNotPresent
+
+# Настройки сервиса
+service:
+  type: ClusterIP
+  port: 80
+
+# Настройки второго компонента (multitool)
+multitool:
+  enabled: true
+  image:
+    repository: wbitt/network-multitool
+    tag: "alpine-extra"
