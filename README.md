@@ -35,6 +35,10 @@ node_filesystem_free_bytes{fstype!="tmpfs",mountpoint="/"} / 1024 / 1024 / 1024
 
 ### Задание 3
 
-
+<img width="1268" height="537" alt="image" src="https://github.com/user-attachments/assets/1929dba5-ab74-4ecf-9268-e66b44e0e8cd" />
 
 ### Задание 4
+
+JSON Model находится в данном репозитории, в файлах
+
+<img width="913" height="548" alt="image" src="https://github.com/user-attachments/assets/27cf2308-deb8-467a-89f5-13dfee5c978a" />
