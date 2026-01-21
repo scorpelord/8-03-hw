@@ -15,6 +15,21 @@ docker-compose ps
 
 ### Задание 2
 
+pomql CPU Utilization
+```
+100 - (avg by(instance)(rate(node_cpu_seconds_total{mode="idle"}[1m])) * 100)
+```
+
+pomql Free Memory
+```
+node_memory_MemFree_bytes / 1024 / 1024 / 1024
+```
+
+pomql Free Disk Space
+```
+node_filesystem_free_bytes{fstype!="tmpfs",mountpoint="/"} / 1024 / 1024 / 1024
+```
+
 <img width="1269" height="703" alt="image" src="https://github.com/user-attachments/assets/e86736df-fceb-4d98-820a-07a04d7973fd" />
 
 
