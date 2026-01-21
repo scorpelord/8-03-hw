@@ -15,10 +15,8 @@ docker-compose ps
 
 ### Задание 2
 
+<img width="1269" height="703" alt="image" src="https://github.com/user-attachments/assets/e86736df-fceb-4d98-820a-07a04d7973fd" />
 
-```
-
-```
 
 ### Задание 3
 
