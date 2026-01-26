@@ -10,6 +10,6 @@
 
 ### Задание 2
 
-```
+<img width="1273" height="359" alt="image" src="https://github.com/user-attachments/assets/a537b7db-705c-4314-93af-537197fdc49c" />
 
-```
+<img width="1269" height="721" alt="image" src="https://github.com/user-attachments/assets/c44ee1d2-4203-4316-bd12-5f58ff03b56b" />
