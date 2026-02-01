@@ -6,6 +6,8 @@
 
 <img width="1153" height="338" alt="image" src="https://github.com/user-attachments/assets/72871815-b512-4ec9-8f24-5b4d57d734b5" />
 
+<img width="1497" height="773" alt="image" src="https://github.com/user-attachments/assets/02f2323d-d5f6-4d6c-bb81-f0da9a65b9f1" />
+
 <img width="639" height="418" alt="image" src="https://github.com/user-attachments/assets/be137920-3b32-435d-b8f0-6c20b4064fbc" />
 
 ### 3 Виртуальные машины
