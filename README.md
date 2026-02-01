@@ -18,3 +18,11 @@
 Но суть задания не в точном содержании страницы, а в создании инфраструктуры для балансировки нагрузки, что успешно выполнено.
 
 <img width="1121" height="689" alt="image" src="https://github.com/user-attachments/assets/d387c9b6-8081-45e2-866c-a8f48ec64074" />
+
+### Network Load Balancer
+
+<img width="1144" height="312" alt="image" src="https://github.com/user-attachments/assets/39fa187e-8b76-4678-ac5e-33ad7b672d56" />
+
+### Target Group
+
+<img width="926" height="1120" alt="image" src="https://github.com/user-attachments/assets/f1299a24-e6ed-49cd-b074-c97719839ad1" />
